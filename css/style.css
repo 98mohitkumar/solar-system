@@ -708,7 +708,7 @@ p {
   background: linear-gradient(
     to bottom,
     rgb(0, 0, 0, 0),
-    rgba(177, 145, 112, 0.5) 775px
+    rgba(131, 97, 66, 0.5) 775px
   );
   z-index: 0;
 }
@@ -945,6 +945,96 @@ p {
 }
 
 .uranus-showcase .uranus-showcase_info {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  height: auto;
+}
+
+/* Explore Neptune */
+
+.neptune-showcase {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url("../Resources/Neptune_showcase.jpg") no-repeat center
+    center/cover;
+}
+
+.neptune-showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0),
+    rgba(59, 82, 145, 0.5) 775px
+  );
+  z-index: 0;
+}
+
+.neptune-showcase .neptune-showcase_wrap {
+  position: absolute;
+  height: 420px;
+  z-index: 4;
+}
+
+.neptune-showcase .neptune-showcase_info {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  height: auto;
+}
+
+/* Pluto Showcase */
+
+.pluto-showcase {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url("../Resources/Pluto_showcase.jpg") no-repeat center
+    center/cover;
+}
+
+.pluto-showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0),
+    rgba(121, 48, 40, 0.5) 775px
+  );
+  z-index: 0;
+}
+
+.pluto-showcase .pluto-showcase_wrap {
+  position: absolute;
+  height: 420px;
+  z-index: 4;
+}
+
+.pluto-showcase .pluto-showcase_info {
   text-align: center;
   display: block;
   margin: auto;
