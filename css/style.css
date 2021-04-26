@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
 *,
 *::before,
 *::after {
@@ -37,6 +39,8 @@ a {
 
 h3 {
   color: #fff;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
 }
 
 li {
@@ -46,31 +50,61 @@ li {
 /* Utility */
 
 .l-heading {
-  margin-bottom: 0.75rem;
   color: #fff;
   font-size: 5rem;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
 }
 
 .m-heading {
   color: #fff;
   font-size: 3rem;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 600;
 }
 
 p {
   color: white;
-  size: 1rem;
 }
 
 .showcase-h1_heading {
   color: #fff;
   font-size: 5rem;
-  margin-bottom: 0;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
 }
 
 .showcase-h3_heading {
   padding-bottom: 0.5rem;
   letter-spacing: 10px;
   color: #fff;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: 400;
+}
+
+.modal-heading {
+  font-size: 2rem;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.sections {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  height: auto;
+  padding-top: 8rem;
+}
+
+.sections ul li {
+  padding-bottom: 1rem;
+}
+
+.sections ul li a:hover {
+  text-decoration: underline;
 }
 
 .showcase-p {
@@ -127,6 +161,10 @@ p {
   align-self: flex-start;
   height: auto;
   padding-top: 8rem;
+}
+
+.quick-facts li:nth-child(even) {
+  padding-bottom: 1rem;
 }
 
 .table_wrapper {
@@ -186,8 +224,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background: url("../Resources/Solar_system_test.jpg") no-repeat center
-    center/cover;
+  background: url("../Resources/Solar_system.jpg") no-repeat center center/cover;
   overflow: hidden;
 }
 
@@ -200,7 +237,7 @@ td {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0) 95%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0) 100%);
   z-index: 0;
 }
 
@@ -279,18 +316,6 @@ td {
   padding: 2rem 0rem 2rem 3rem;
   display: flex;
   justify-content: space-between;
-}
-
-.sections {
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
-  height: auto;
-  padding-top: 8rem;
-}
-
-.sections ul li a:hover {
-  text-decoration: underline;
 }
 
 .paragraphs {
@@ -412,14 +437,16 @@ td {
 
 .sun-wrap .sun-info .sun-facts li {
   list-style: disc;
+  padding-left: 12px;
 }
 
 .sun-wrap .sun-info .sun-facts h3 {
   font-size: 2.5rem;
+  padding-left: 12px;
 }
 
 .sun-wrap .sun-info .explore-sun {
-  padding-top: 2rem;
+  padding: 2rem 0rem 0rem 0.75rem;
 }
 
 .sun-wrap .sun-info .explore-sun a:hover {
@@ -435,6 +462,7 @@ td {
 
 .explore-planets .title {
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .wrap {
@@ -761,6 +789,8 @@ td {
 .sun-regions {
   padding: 1rem;
   color: #fff;
+  font-size: 1.5rem;
+  font-family: "Gilroy-Medium", sans-serif;
   border: 2px dotted white;
 }
 
@@ -818,13 +848,13 @@ td {
 }
 
 fieldset.mercury-temperature {
-  padding: 1.5rem;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .mercury-temperature .hot_or_cold {
   padding: 0rem 0.5rem;
-  font-weight: 700;
   font-size: 1.15rem;
+  font-family: "Gilroy-Medium", sans-serif;
   color: #fff;
 }
 
@@ -854,7 +884,7 @@ fieldset.mercury-temperature {
   background: linear-gradient(
     to bottom,
     rgb(0, 0, 0, 0),
-    rgba(131, 97, 66, 0.5),
+    rgba(160, 134, 98, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   z-index: 0;
@@ -900,8 +930,8 @@ fieldset.mercury-temperature {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0) 0%,
-    rgba(82, 139, 182, 0.5),
-    rgba(0, 0, 0, 0.6)
+    rgba(1, 51, 87, 0.5),
+    rgb(0, 0, 0)
   );
   z-index: 0;
 }
@@ -913,6 +943,96 @@ fieldset.mercury-temperature {
 }
 
 .earth-showcase .earth-showcase_info {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  height: auto;
+}
+
+.moon-wrap {
+  padding: 4rem 2rem;
+}
+
+.moon {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moon-img {
+  background: url("../Resources/Moon.jpg") no-repeat center center/cover;
+  width: 410px;
+  height: 308px;
+  flex: 45%;
+}
+
+.moon-info {
+  padding: 1rem 2rem;
+  width: 100%;
+  height: auto;
+  flex: 55%;
+}
+
+.moon-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.moon-info a {
+  display: block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.moon-info a:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Explore Moon */
+
+.moon-showcase {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url("../Resources/Moon_showcase.jpg") no-repeat center
+    center/cover;
+}
+
+.moon-showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(61, 59, 60, 0.5),
+    rgb(0, 0, 0)
+  );
+  z-index: 0;
+}
+
+.moon-showcase .moon-showcase_wrap {
+  position: absolute;
+  height: 420px;
+  z-index: 4;
+}
+
+.moon-showcase .moon-showcase_info {
   text-align: center;
   display: block;
   margin: auto;
@@ -946,7 +1066,7 @@ fieldset.mercury-temperature {
   background: linear-gradient(
     to bottom,
     rgb(0, 0, 0, 0),
-    rgba(210, 136, 99, 0.5),
+    rgba(210, 136, 99, 0.502),
     rgba(0, 0, 0, 0.6)
   );
   z-index: 0;
@@ -972,6 +1092,210 @@ fieldset.mercury-temperature {
 
 .mars-exploration a {
   color: #43aaed;
+}
+
+/* Phobos */
+
+.modalbtnPhobos {
+  border: none;
+  background-color: #43aaed;
+  box-shadow: 2px 2px 0px 0px rgb(61, 61, 61);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0rem 0.25rem;
+  margin: 0rem 0.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#phobos_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  animation: popup 0.5s ease-in-out;
+  z-index: 8;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#phobos_wrap {
+  width: 800px;
+  background-color: rgb(0, 0, 0);
+  -webkit-box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  -moz-box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  margin: 5% auto 4rem auto;
+}
+
+.phobos-img {
+  position: relative;
+  background: url("../Resources/Phobos.jpg") no-repeat center center/cover;
+  width: 800px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phobos-img::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1),
+    rgba(204, 144, 111, 0.5)
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.close_btn_wrap {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.closebtnPhobos {
+  transition: 0.25s ease-in-out;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+.closebtnPhobos:hover {
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+.phobos-img h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  z-index: 2;
+}
+
+.phobos_info_wrap {
+  padding: 3rem;
+}
+
+/* Deimos */
+
+.modalbtnDeimos {
+  border: none;
+  background-color: #43aaed;
+  box-shadow: 2px 2px 0px 0px rgb(61, 61, 61);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0rem 0.25rem;
+  margin: 0rem 0.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#deimos_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  animation: popup 0.5s ease-in-out;
+  z-index: 8;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#deimos_wrap {
+  width: 800px;
+  background-color: rgb(0, 0, 0);
+  -webkit-box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  -moz-box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  box-shadow: 17px 17px 100px 60px rgba(36, 36, 36, 0.5);
+  margin: 5% auto 4rem auto;
+}
+
+.deimos-img {
+  position: relative;
+  background: url("../Resources/Deimos.jpg") no-repeat center center/cover;
+  width: 800px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deimos-img::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1),
+    rgba(167, 118, 91, 0.5)
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.close_btn_wrap {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.closebtnDeimos {
+  transition: 0.25s ease-in-out;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+.closebtnDeimos:hover {
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+.deimos-img h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  z-index: 2;
+}
+
+.deimos_info_wrap {
+  padding: 3rem;
 }
 
 /* Exploren Jupiter */
@@ -1034,6 +1358,7 @@ fieldset .jupiter-features {
   padding: 0rem 1rem;
   font-size: 1.25rem;
   font-weight: 700;
+  font-family: "Gilroy-Medium", sans-serif;
 }
 
 .jupiter-exploration a {
@@ -1198,7 +1523,7 @@ fieldset .jupiter-features {
 
 .why_so_blue {
   color: #fff;
-  padding: 1.4rem;
+  padding: 0.5rem 1.4rem 1.25rem 1.4rem;
 }
 
 /* Explore Pluto */

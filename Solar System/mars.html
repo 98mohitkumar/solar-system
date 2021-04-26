@@ -51,18 +51,18 @@
         <div class="sections">
             <h3>Sections</h3><br>
             <ul>
-                <li><a href="#Introduction">Introduction</a></li><br>
-                <li><a href="#Exploration">Exploration</a></li><br>
-                <li><a href="#Size_and_Distance">Size and Distance</a></li><br>
-                <li><a href="#Orbit_and_Rotation">Orbit and Rotation</a></li><br>
-                <li><a href="#Formation">Formation</a></li><br>
-                <li><a href="#Structure">Structure</a></li><br>
-                <li><a href="#Surface">Surface</a></li><br>
-                <li><a href="#Atmosphere">Atmosphere</a></li><br>
-                <li><a href="#Potential_for_life">Potential for life</a></li><br>
-                <li><a href="#Moons">Moons</a></li><br>
-                <li><a href="#Rings">Rings</a></li><br>
-                <li><a href="#Magnetosphere">Magnetosphere</a></li><br>
+                <li><a href="#Introduction">Introduction</a></li>
+                <li><a href="#Exploration">Exploration</a></li>
+                <li><a href="#Size_and_Distance">Size and Distance</a></li>
+                <li><a href="#Orbit_and_Rotation">Orbit and Rotation</a></li>
+                <li><a href="#Formation">Formation</a></li>
+                <li><a href="#Structure">Structure</a></li>
+                <li><a href="#Surface">Surface</a></li>
+                <li><a href="#Atmosphere">Atmosphere</a></li>
+                <li><a href="#Potential_for_life">Potential for life</a></li>
+                <li><a href="#Moons">Moons</a></li>
+                <li><a href="#Rings">Rings</a></li>
+                <li><a href="#Magnetosphere">Magnetosphere</a></li>
             </ul>
         </div>
 
@@ -206,7 +206,9 @@
                 signs of life that existed long ago, when Mars was warmer and covered with water.</p><br> <br>
 
             <h2 class="m-heading" id="Moons">Moons</h2><br>
-            <p>Mars has two small moons, Phobos and Deimos, that may be captured asteroids. They're potato-shaped
+            <p>Mars has two small moons, <button class="modalbtnPhobos">Phobos</button> and <button
+                    class="modalbtnDeimos">Deimos</button> , that may be captured
+                asteroids. They're potato-shaped
                 because they have too little mass for gravity to make them spherical. <br><br>
 
                 The moons get their names from the horses that pulled the chariot of the Greek god of war, Ares.
@@ -220,6 +222,127 @@
                 Oddly-shaped Deimos is covered in loose dirt that often fills the craters on its surface, making it
                 appear smoother than pockmarked Phobos.
             </p><br> <br>
+
+            <!-- Phobos Modal -->
+
+            <div id="phobos_overlay">
+                <div class="close_btn_wrap">
+                    <img class="closebtnPhobos" src="../Resources/icons/close_i.svg" alt="">
+                </div>
+                <div id="phobos_wrap">
+                    <div class="phobos-img">
+                        <h1>P H O B O S</h1>
+                    </div>
+
+                    <div class="phobos_info_wrap">
+                        <h2 class="modal-heading">Discovery</h2>
+                        <p>Phobos was discovered on Aug. 17, 1877 by Asaph Hall.</p><br>
+
+                        <h2 class="modal-heading">Overview</h2>
+                        <p>Phobos, gouged and nearly shattered by a giant impact crater and beaten by thousands of
+                            meteorite
+                            impacts, is on a collision course with Mars.<br><br>
+
+                            Phobos is the larger of Mars' two moons and is 17 x 14 x 11 miles (27 by 22 by 18
+                            kilometers) in
+                            diameter. It orbits Mars three times a day, and is so close to the planet's surface that in
+                            some
+                            locations on Mars it cannot always be seen.<br><br>
+
+                            Phobos is nearing Mars at a rate of six feet (1.8 meters) every hundred years; at that rate,
+                            it will
+                            either crash into Mars in 50 million years or break up into a ring. Its most prominent
+                            feature is
+                            the 6-mile (9.7 kilometer) crater Stickney, its impact causing streak patterns across the
+                            moon's
+                            surface. Stickney was seen by Mars Global Surveyor to be filled with fine dust, with
+                            evidence of
+                            boulders sliding down its sloped surface.<br><br>
+
+                            Phobos and Deimos appear to be composed of C-type rock, similar to blackish carbonaceous
+                            chondrite
+                            asteroids. Observations by Mars Global Surveyor indicate that the surface of this small body
+                            has
+                            been pounded into powder by eons of meteoroid impacts, some of which started landslides that
+                            left
+                            dark trails marking the steep slopes of giant craters. <br><br>
+
+                            Measurements of the day and night sides of Phobos show such extreme temperature variations
+                            that the
+                            sunlit side of the moon rivals a pleasant winter day in Chicago, while only a few kilometers
+                            away,
+                            on the dark side of the moon, the climate is more harsh than a night in Antarctica. High
+                            temperatures for Phobos were measured at 25 degrees Fahrenheit (-4 degrees Celsius) and lows
+                            at -170
+                            degrees Fahrenheit (-112 degrees Celsius). This intense heat loss is likely a result of the
+                            fine
+                            dust on Phobos' surface, which is unable to retain heat.<br><br>
+
+                            Phobos has no atmosphere. It may be a captured asteroid, but some scientists show evidence
+                            that
+                            contradicts this theory.
+                        </p><br><br>
+
+                        <div class="TD-model">
+                            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2358' width='100%' height='450px'
+                                frameborder='0'></iframe>
+                        </div><br>
+
+                        <h2 class="modal-heading">How Phobos Got its Name</h2>
+                        <p>Hall named Mars' moons for the mythological sons of Ares, the Greek counterpart of the Roman
+                            god,
+                            Mars. Phobos, whose name means fear is the brother of Deimos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deimos Modal -->
+
+            <div id="deimos_overlay">
+                <div class="close_btn_wrap">
+                    <img class="closebtnDeimos" src="../Resources/icons/close_i.svg" alt="">
+                </div>
+                <div id="deimos_wrap">
+                    <div class="deimos-img">
+                        <h1>D E I M O S</h1>
+                    </div>
+
+                    <div class="deimos_info_wrap">
+                        <h2 class="modal-heading">Discovery</h2>
+                        <p>Deimos was discovered on Aug. 11, 1877 by Asaph Hall.</p><br>
+
+                        <h2 class="modal-heading">Overview</h2>
+                        <p>Deimos is the smaller of Mars' two moons. Being only 9 by 7 by 6.8 miles in size (15 by 12 by
+                            11 kilometers), Deimos whirls around Mars every 30 hours.<br><br>
+
+                            Like Phobos, Deimos is a small and lumpy, heavily cratered object. Its craters are generally
+                            smaller than 1.6 miles (2.5 kilometers) in diameter, however, and it lacks the grooves and
+                            ridges seen on Phobos. Typically when a meteorite hits a surface, surface material is thrown
+                            up and out of the resulting crater. The material usually falls back to the surface
+                            surrounding the crater. However, these ejecta deposits are not seen on Deimos, perhaps
+                            because the moon's gravity is so low that the ejecta escaped to space. Material does appear
+                            to have moved down slopes. Deimos also has a thick regolith, perhaps as deep as 328 feet
+                            (100 meters), formed as meteorites pulverized the surface.
+                        </p><br><br>
+
+                        <div class="TD-model">
+                            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2434' width='100%' height='450px'
+                                frameborder='0'></iframe>
+                        </div><br><br>
+
+                        <p>Deimos is a dark body that appears to be composed of C-type surface materials, similar to
+                            that
+                            of asteroids found in the outer asteroid belt.
+                        </p><br>
+
+
+                        <h2 class="modal-heading">How Phobos Got its Name</h2>
+                        <p>Hall named Mars' moons for the mythological sons of Ares, the Greek counterpart of the Roman
+                            god,
+                            Mars. Phobos, whose name means fear is the brother of Deimos.</p>
+                    </div>
+                </div>
+            </div>
 
             <h2 class="m-heading" id="Rings">Rings</h2><br>
             <p>Mars has no rings. However, in 50 million years when Phobos crashes into Mars or breaks apart, it
@@ -239,23 +362,23 @@
             <h3>Quick Facts</h3> <br>
             <ul>
                 <li>
-                    <h4>Day</h4>
+                    <h3>Day</h3>
                 </li>
                 <li>24.6 hours</li>
-                <li><br>
-                    <h4>Year</h4>
+                <li>
+                    <h3>Year</h3>
                 </li>
                 <li>687 Earth days</li>
-                <li><br>
-                    <h4>Radius</h4>
+                <li>
+                    <h3>Radius</h3>
                 </li>
                 <li>3,390 kilometers</li>
-                <li><br>
-                    <h4>Planet Type</h4>
+                <li>
+                    <h3>Planet Type</h3>
                 </li>
                 <li>Terrestrial</li>
-                <li><br>
-                    <h4>Moons</h4>
+                <li>
+                    <h3>Moons</h3>
                 </li>
                 <li>2</li>
             </ul>
