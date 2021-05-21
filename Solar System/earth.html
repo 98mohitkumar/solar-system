@@ -6,12 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/mont" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Earth - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Earth_i.svg">
 </head>
@@ -19,22 +16,30 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Earth Showcase -->
-    <div class="earth-showcase" id="top">
-        <div class="earth-showcase_wrap">
+    <div class="earth-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="earth-showcase_info">
                 <h1 class="showcase-h1_heading">E A R T H</h1>
                 <h3 class="showcase-h3_heading">000,000,000 KM</h3>
                 <p class="showcase-p">Earth, our home planet is the only place we know of so far that’s inhabited by
-                    living things. It's also the only planet in our solar system with liquid water on the surface</p>
+                    living things. It's also the only planet in our solar system with liquid water on the surface.</p>
             </div>
 
             <!-- scroll icon -->
@@ -44,6 +49,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>23.9 hours</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>365.25 days</li>
+            </div>
+
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>6,371 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Terrestrial</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>1</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -208,7 +253,12 @@
                 harm to life on Earth, and a reversal is very unlikely to happen for at least another thousand years.
                 But when it does happen, compass needles are likely to point in many different directions for a few
                 centuries while the switch is being made. And after the switch is completed, they will all point south
-                instead of north.​</p>
+                instead of north.​</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Earth-gallery.html">Earth Gallery &#8594</a></div>
+            </div>
 
         </div>
 
@@ -240,12 +290,6 @@
             </ul>
         </div>
     </div>
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Earth-gallery.html">Earth Gallery &#8594</a></div>
-    </div>
-
 
     <!-- Footer -->
     <footer id="footer">

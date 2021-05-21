@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Mars - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Mars_i.svg">
 </head>
@@ -18,22 +15,30 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Mars Showcase -->
-    <div class="mars-showcase" id="top">
-        <div class="mars-showcase_wrap">
+    <div class="mars-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="mars-showcase_info">
                 <h1 class="showcase-h1_heading">M A R S</h1>
                 <h3 class="showcase-h3_heading">78,340,000 KM</h3>
                 <p class="showcase-p">Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong
-                    evidence Mars was billions of years ago wetter and warmer, with a thicker atmosphere</p>
+                    evidence Mars was billions of years ago wetter and warmer, with a thicker atmosphere.</p>
             </div>
 
             <!-- scroll icon -->
@@ -43,6 +48,47 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>24.6 hours</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>687 Earth days</li>
+            </div>
+
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>3,390 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Terrestrial</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>2</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -198,7 +244,8 @@
 
                 Occasionally, winds on Mars are strong enough to create dust storms that cover much of the planet.
                 After
-                such storms, it can be months before all of the dust settles.</p> <br> <br>
+                such storms, it can be months before all of the dust settles.
+            </p> <br> <br>
 
             <h2 class="m-heading" id="Potential_for_life">Potential for Life</h2><br>
             <p>Scientists don't expect to find living things currently thriving on Mars. Instead, they're looking
@@ -226,11 +273,11 @@
             <!-- Phobos Modal -->
 
             <div id="phobos_overlay">
-                <div class="close_btn_wrap">
-                    <img class="closebtnPhobos" src="../Resources/icons/close_i.svg" alt="">
-                </div>
                 <div id="phobos_wrap">
                     <div class="phobos-img">
+                        <div class="close_btn_wrap">
+                            <img class="closebtnPhobos" src="../Resources/icons/close_i.svg" alt="">
+                        </div>
                         <h1>P H O B O S</h1>
                     </div>
 
@@ -283,7 +330,7 @@
                             contradicts this theory.
                         </p><br><br>
 
-                        <div class="TD-model">
+                        <div class="TD-model" style="width: 100%;">
                             <iframe src='https://solarsystem.nasa.gov/gltf_embed/2358' width='100%' height='450px'
                                 frameborder='0'></iframe>
                         </div><br>
@@ -299,11 +346,11 @@
             <!-- Deimos Modal -->
 
             <div id="deimos_overlay">
-                <div class="close_btn_wrap">
-                    <img class="closebtnDeimos" src="../Resources/icons/close_i.svg" alt="">
-                </div>
                 <div id="deimos_wrap">
                     <div class="deimos-img">
+                        <div class="close_btn_wrap">
+                            <img class="closebtnDeimos" src="../Resources/icons/close_i.svg" alt="">
+                        </div>
                         <h1>D E I M O S</h1>
                     </div>
 
@@ -325,7 +372,7 @@
                             (100 meters), formed as meteorites pulverized the surface.
                         </p><br><br>
 
-                        <div class="TD-model">
+                        <div class="TD-model" style="width: 100%;">
                             <iframe src='https://solarsystem.nasa.gov/gltf_embed/2434' width='100%' height='450px'
                                 frameborder='0'></iframe>
                         </div><br><br>
@@ -352,7 +399,12 @@
             <h2 class="m-heading" id="Magnetosphere">Magnetosphere</h2><br>
             <p>Mars has no global magnetic field today, but areas of the Martian crust in the southern hemisphere
                 are
-                highly magnetized, indicating traces of a magnetic field from 4 billion years ago.​</p>
+                highly magnetized, indicating traces of a magnetic field from 4 billion years ago.​</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Mars-gallery.html">Mars Gallery &#8594</a></div>
+            </div>
 
         </div>
 
@@ -386,11 +438,6 @@
 
     </div>
 
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Mars-gallery.html">Mars Gallery &#8594</a></div>
-    </div>
     <!-- Footer -->
     <footer id="footer">
         <div class="footer-wrap">
@@ -410,7 +457,6 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script src="../js/main.js"></script>
-
 </body>
 
 </html>

@@ -6,11 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="shortcut icon" type="image/svg" href="Resources/icons/Solar_system_i.svg">
   <title>Explore - Our Solar System</title>
 </head>
@@ -19,12 +16,20 @@
 
   <!-- Navbar -->
   <nav id="navbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="explore.html">Explore</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="hamwrap">
+      <div class="first ham"></div>
+      <div class="second ham"></div>
+      <div class="third ham"></div>
+    </div>
   </nav>
 
   <!-- Sun Facts -->
@@ -37,15 +42,15 @@
           <li>
             The Sun is the largest object within our solar system, comprising
             99.8% of the system’s mass.
-          </li> <br>
+          </li>
           <li>
             The Sun is located at the center of our solar system, and Earth
             orbits 93 million miles away from it.
-          </li><br>
+          </li>
           <li>
             Though massive, the Sun still isn’t as large as other types of
             stars. It’s classified as a yellow dwarf star.
-          </li><br>
+          </li>
           <li>
             The Sun's magnetic field spreads throughout the solar system via the
             solar wind.
@@ -60,7 +65,7 @@
 
   <div class="explore-planets">
     <div class="title">
-      <h1 class="l-heading">Explore planets</h1>
+      <h1 class="l-heading ExploreHeading">Explore planets</h1>
     </div>
     <!-- Planets -->
 
@@ -161,6 +166,12 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>

@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Mercury - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Mercury_i.svg">
 </head>
@@ -18,23 +15,31 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Mercury Showcase -->
-    <div class="mercury-showcase" id="top">
-        <div class="mercury-showcase_wrap">
+    <div class="mercury-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="mercury-showcase_info">
                 <h1 class="showcase-h1_heading">M E R C U R Y</h1>
                 <h3 class="showcase-h3_heading">91,691,000 KM</h3>
                 <p class="showcase-p">Mercury, the smallest planet in our solar system and closest to the Sun is only
                     slightly larger than
-                    Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days</p>
+                    Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.</p>
             </div>
 
             <!-- scroll icon -->
@@ -44,6 +49,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>176 Earth days</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>88 days</li>
+            </div>
+
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>2,439.7 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Terrestrial</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>0</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -120,6 +165,9 @@
                 partly molten, or liquid. Mercury's outer shell, comparable to Earth's outer shell (called the mantle
                 and crust), is only about 400 kilometers (250 miles) thick.</p><br><br>
 
+            <div class="MercuryStructureWrap">
+                <div class="MercuryStructureimg"></div>
+            </div><br><br>
 
             <h2 class="m-heading" id="Surface">Surface</h2><br>
             <p>Mercury's surface resembles that of Earth's moon, scarred by many impact craters resulting from
@@ -143,7 +191,7 @@
             </p> <br><br>
 
             <fieldset class="mercury-temperature">
-                <h3 style="padding-bottom: 0.6rem; font-size: 2rem; font-family: Gilroy-Medium, sans-serif;">Mercury's
+                <h3 style="padding-bottom: 0.6rem; font-size: 2rem; font-family: Gilroy-Bold, sans-serif;">Mercury's
                     Temperature</h3>
                 <p>Mercury's surface temperatures are both extremely hot and cold. Because the planet is so close to
                     the
@@ -183,7 +231,12 @@
                 the surface has just one percent the strength of Earth's, it interacts with the magnetic field of the
                 solar wind to sometimes create intense magnetic tornadoes that funnel the fast, hot solar wind plasma
                 down to the surface of the planet. When the ions strike the surface, they knock off neutrally charged
-                atoms and send them on a loop high into the sky.</p>
+                atoms and send them on a loop high into the sky.</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Mercury-gallery.html">Mercury Gallery &#8594</a></div>
+            </div>
         </div>
 
         <!-- Quick Facts -->
@@ -210,16 +263,13 @@
                 <li>
                     <h3>Moons</h3>
                 </li>
-                <li>1</li>
+                <li>0</li>
             </ul>
         </div>
 
     </div>
 
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Mercury-gallery.html">Mercury Gallery &#8594</a></div>
-    </div>
+
 
     <!-- Footer -->
     <footer id="footer">

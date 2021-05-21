@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Uranus - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Uranus_i.svg">
 </head>
@@ -18,22 +15,30 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Uranus Showcase -->
-    <div class="uranus-showcase" id="top">
-        <div class="uranus-showcase_wrap">
+    <div class="uranus-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="uranus-showcase_info">
                 <h1 class="showcase-h1_heading">U R A N U S</h1>
                 <h3 class="showcase-h3_heading">2,723,950,000 KM</h3>
                 <p class="showcase-p">Uranus, seventh planet from the Sun, rotates at a nearly 90-degree angle from the
-                    plane of its orbit. This unique tilt makes Uranus appear to spin on its side</p>
+                    plane of its orbit. This unique tilt makes Uranus appear to spin on its side.</p>
             </div>
 
             <!-- scroll icon -->
@@ -43,6 +48,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>17 hours 14 minutes</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>84 Earth years</li>
+            </div>
+
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>25,362 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Ice Giant</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>27</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -188,7 +233,12 @@
 
                 The magnetosphere tail behind Uranus opposite the Sun extends into space for millions of miles. Its
                 magnetic field lines are twisted by Uranus’ sideways rotation into a long corkscrew shape.​
-            </p>
+            </p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Uranus-gallery.html">Uranus Gallery &#8594</a></div>
+            </div>
 
         </div>
 
@@ -221,12 +271,6 @@
         </div>
 
     </div>
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Uranus-gallery.html">Uranus Gallery &#8594</a></div>
-    </div>
-
 
     <!-- Footer -->
     <footer id="footer">

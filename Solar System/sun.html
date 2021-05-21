@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Sun - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Sun_i.svg">
 </head>
@@ -18,24 +15,32 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Sun Showcase -->
-    <div class="sun-showcase" id="top">
-        <div class="sun-showcase_wrap">
+    <div class="sun-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="sun-showcase_info">
                 <h1 class="showcase-h1_heading">S U N</h1>
                 <h3 class="showcase-h3_heading">150,140,000 KM</h3>
                 <p class="showcase-p">The Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of our
                     solar system. Its
                     gravity
-                    holds everything from the biggest planets to tiny debris in its orbit</p>
+                    holds everything from the biggest planets to tiny debris in its orbit.</p>
             </div>
 
             <!-- scroll icon -->
@@ -45,6 +50,31 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>695,508 kilometers</li>
+            </div>
+            <div class="star">
+                <li>
+                    <h3>star Type</h3>
+                </li>
+                <li>Yellow dwarf</li>
+            </div>
+            <div class="distance">
+                <li>
+                    <h3>Distance From Earth</h3>
+                </li>
+                <li>150,140,000 kilometers</li>
+            </div>
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -168,9 +198,11 @@
                 still hot enough to make carbon, like diamonds and graphite, not just melt, but boil.</p><br><br>
 
 
-            <div class="sun-structure">
-            </div><br>
-            <p>This illustration shows the Structure of the Sun</p><br><br>
+            <div class="sun-structureWrap">
+                <div class="sun-structure">
+                </div><br>
+                <p>This illustration shows the Structure of the Sun</p><br><br>
+            </div>
 
             <h2 class="m-heading" id="Surface">Surface</h2><br>
             <p>The surface of the Sun, the photosphere, is a 300-mile-thick (500-kilometer-thick) region, from which
@@ -222,33 +254,34 @@
                 active. The height of the Sun’s activity, known as solar maximum, is a time of solar storms: sunspots,
                 solar flares and coronal mass ejections. These are caused by irregularities in the Sun's magnetic field
                 and can release huge amounts of energy and particles, some of which reach us here on Earth. This space
-                weather can damage satellites, corrode pipelines and affect power grids.</p>
+                weather can damage satellites, corrode pipelines and affect power grids.</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Sun-gallery.html">Sun Gallery &#8594</a></div>
+            </div>
         </div>
 
         <!-- Quick Facts -->
         <div class="quick-facts">
 
             <h3>Quick Facts</h3> <br>
-            <h3>Radius</h3>
-            </li>
-            <li>695,508 kilometers</li>
-            <li>
-                <h3>star Type</h3>
-            </li>
-            <li>Yellow dwarf</li>
-            <li>
-                <h3>Distance From Earth</h3>
-            </li>
-            <li>150,140,000 kilometers</li>
+            <ul>
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>695,508 kilometers</li>
+                <li>
+                    <h3>star Type</h3>
+                </li>
+                <li>Yellow dwarf</li>
+                <li>
+                    <h3>Distance From Earth</h3>
+                </li>
+                <li>150,140,000 kilometers</li>
             </ul>
         </div>
 
-    </div>
-
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Sun-gallery.html">Sun Gallery &#8594</a></div>
     </div>
 
     <!-- Footer -->
@@ -264,8 +297,6 @@
         </div>
     </footer>
 
-    <!-- <img style="width: 720px; height:480px ;" src="../Resources/Mercury.jpg"
-        data-zoomable-src="../Resources/Mercury.jpg" alt=""> -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

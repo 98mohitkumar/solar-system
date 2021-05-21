@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Venus - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Venus_i.svg">
 </head>
@@ -18,22 +15,31 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
+
     <!-- Venus Showcase -->
-    <div class="venus-showcase" id="top">
-        <div class="venus-showcase_wrap">
+    <div class="venus-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="venus-showcase_info">
                 <h1 class="showcase-h1_heading">V E N U S</h1>
                 <h3 class="showcase-h3_heading">41,400,000 KM</h3>
                 <p class="showcase-p">Venus spins slowly in the opposite direction from most planets. A thick atmosphere
-                    traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system</p>
+                    traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.</p>
             </div>
 
             <!-- scroll icon -->
@@ -43,6 +49,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>243 Earth days</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>225 Earth days</li>
+            </div>
+
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>6,052 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Terrestrial</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>0</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -175,7 +221,12 @@
 
             <h2 class="m-heading" id="Magnetosphere">Magnetosphere</h2><br>
             <p>Even though Venus is similar in size to the Earth and has a similarly-sized iron core, Venus' magnetic
-                field is much weaker than the Earth's due to Venus' slow rotation.</p>
+                field is much weaker than the Earth's due to Venus' slow rotation.</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Venus-gallery.html">Venus Gallery &#8594</a></div>
+            </div>
 
         </div>
 
@@ -207,11 +258,6 @@
             </ul>
         </div>
 
-    </div>
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Venus-gallery.html">Venus Gallery &#8594</a></div>
     </div>
 
     <!-- Footer -->

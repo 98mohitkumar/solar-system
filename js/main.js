@@ -24,6 +24,27 @@ Webflow.push(function () {
   });
 });
 
+// Hamburger Menu
+
+const hamButton = document.querySelector(".hamwrap");
+
+const navbarLinks = document.querySelector(".navbar-links ul");
+
+const cross = document.querySelector(".first");
+
+const cross1 = document.querySelector(".second");
+
+const cross2 = document.querySelector(".third");
+
+hamButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  navbarLinks.classList.toggle("navbar-links_active");
+  hamButton.classList.toggle("hamwrap_active");
+  cross.classList.toggle("f");
+  cross1.classList.toggle("s");
+  cross2.classList.toggle("t");
+});
+
 //  Phobos
 var modalbtnPhobos = document.getElementsByClassName("modalbtnPhobos")[0];
 

@@ -1,0 +1,1083 @@
+@media (max-width: 1250px) {
+  .showcase-h1_heading {
+    font-size: 4rem;
+  }
+
+  .sun-wrap .sun-img:hover {
+    background-size: 115%;
+  }
+
+  .wrap .zoom:hover {
+    background-size: 100%;
+  }
+
+  .moon-info a:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  #navbar ul li a::before,
+  #navbar ul li a::after {
+    display: none;
+  }
+
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .flex-wrap {
+    display: block;
+  }
+
+  .container {
+    height: 650px;
+  }
+
+  #home-contents {
+    padding: 0rem 3rem 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sections ul li a:hover {
+    text-decoration: none;
+  }
+
+  .paragraphs {
+    padding: 0rem 0rem 2rem 3rem;
+  }
+
+  .form-moons {
+    width: 100%;
+  }
+
+  .buttons {
+    padding: 3rem 0rem;
+  }
+
+  .sun-wrap {
+    flex-direction: column;
+    height: 850px;
+  }
+
+  .scroll-wrap {
+    display: none;
+  }
+
+  .sun-wrap .sun-info {
+    padding: 2rem;
+    padding-bottom: 8rem;
+    width: 95%;
+  }
+
+  #contents {
+    padding: 0rem 3rem 2rem 3rem;
+  }
+
+  .responsiveHeight {
+    height: 60vw;
+  }
+
+  .info_wrap {
+    padding: 2rem 3rem;
+  }
+
+  .sun-wrap .sun-img {
+    margin: 4rem auto;
+    margin-bottom: 0rem;
+    min-height: 350px;
+  }
+
+  .showcase_wrap {
+    height: 350px;
+  }
+
+  .moon-img {
+    height: 25vw;
+  }
+
+  #phobos_wrap {
+    width: 80%;
+    margin: 20% auto 4rem auto;
+  }
+
+  .phobos-img {
+    width: 100%;
+  }
+
+  #deimos_wrap {
+    width: 80%;
+    margin: 20% auto 4rem auto;
+  }
+
+  .deimos-img {
+    width: 100%;
+  }
+
+  .galleryZoom {
+    background-size: 130%;
+  }
+
+  .galleryZoom:hover {
+    transform: translateY(0rem);
+    background-size: 130%;
+  }
+
+  .gallerylinks {
+    opacity: 1;
+    transition: 0s ease-out;
+  }
+
+  .gridprops > div {
+    filter: brightness(100%);
+    transition: none;
+  }
+
+  .gridprops > div:hover {
+    transform: scale(1);
+  }
+
+  .GalleryWrapSun {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(7, minmax(350px, 350px));
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img9 img9 img9 img9"
+      "img1 img1 img2 img2"
+      "img3 img3 img4 img4"
+      "img5 img5 img6 img6"
+      "img7 img7 img8 img8"
+      "img11 img11 img11 img11"
+      "img10 img10 img10 img10";
+  }
+
+  .GalleryWrapMercury {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(5, minmax(350px, 350px));
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img3 img3"
+      "img2 img2 img2 img2"
+      "img4 img4 img4 img4"
+      "img4 img4 img4 img4"
+      "img5 img5 img6 img6 ";
+  }
+
+  .GalleryWrapVenus {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img2 img2"
+      "img3 img3 img4 img4"
+      "img6 img6 img6 img6"
+      "img5 img5 img5 img5"
+      "img7 img7 img8 img8";
+  }
+
+  .GalleryWrapEarth {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(12, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img10 img10"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img11 img11 img11 img11"
+      "img12 img12 img12 img12"
+      "img13 img13 img14 img14";
+  }
+
+  .GalleryWrapMars {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(13, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img14 img14"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10 img10 img10"
+      "img11 img11 img11 img11"
+      "img12 img12 img12 img12"
+      "img13 img13 img13 img13"
+      "img15 img15 img15 img15";
+  }
+
+  .GalleryWrapJupiter {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(10, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img8 img8 img9 img9"
+      "img10 img10 img11 img11"
+      "img12 img12 img13 img13"
+      "img14 img14 img14 img14";
+  }
+
+  .GalleryWrapSaturn {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(11, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img11 img11 img11 img11"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10  img10 img10"
+      "img12 img12 img13 img13";
+  }
+
+  .GalleryWrapUranus {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img7 img7";
+  }
+
+  .GalleryWrapNeptune {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img7 img7";
+  }
+
+  .GalleryWrapPluto {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img4 img4"
+      "img3 img3 img3 img3"
+      "img5 img5 img5 img5"
+      "img6 img6 img6 img6";
+  }
+
+  .GalleryWrapMoon {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(175px, 175px));
+    grid-template-rows: repeat(11, auto);
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10 img10 img10"
+      "img11 img11 img11 img11";
+  }
+
+  .aboutWrap {
+    width: 70%;
+  }
+
+  .creditsWrap {
+    width: 70%;
+    height: 775px;
+  }
+
+  .credits > div {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem;
+  }
+}
+
+@media (max-width: 975px) {
+  .l-heading {
+    font-size: 4rem;
+  }
+
+  .scroll-wrap {
+    display: none;
+  }
+
+  .flex-wrap {
+    display: block;
+  }
+
+  .form-moons {
+    width: 100%;
+  }
+
+  .explore-planets .title {
+    margin-top: 2rem;
+  }
+
+  .showcase_wrap {
+    height: 250px;
+  }
+
+  .quick-facts {
+    display: none;
+  }
+
+  .info_wrap {
+    padding-right: 0rem;
+  }
+
+  .quickFacts {
+    width: 90%;
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 3rem;
+  }
+
+  .quickFacts fieldset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+  }
+
+  .quickFacts fieldset legend {
+    padding: 0rem 0.5rem;
+    font-size: 1.15rem;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: 400;
+  }
+
+  .moon-img {
+    height: 25vw;
+  }
+
+  .GalleryWrapSun {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(7, minmax(300px, 300px));
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img9 img9 img9 img9"
+      "img1 img1 img2 img2"
+      "img3 img3 img4 img4"
+      "img5 img5 img6 img6"
+      "img7 img7 img8 img8"
+      "img11 img11 img11 img11"
+      "img10 img10 img10 img10";
+  }
+
+  .GalleryWrapMercury {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(5, minmax(350px, 350px));
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img3 img3"
+      "img2 img2 img2 img2"
+      "img4 img4 img4 img4"
+      "img4 img4 img4 img4"
+      "img5 img5 img6 img6 ";
+  }
+
+  .GalleryWrapVenus {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img2 img2"
+      "img3 img3 img4 img4"
+      "img6 img6 img6 img6"
+      "img5 img5 img5 img5"
+      "img7 img7 img8 img8";
+  }
+
+  .GalleryWrapEarth {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img10 img10"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img11 img11 img11 img11"
+      "img12 img12 img12 img12"
+      "img13 img13 img14 img14";
+  }
+
+  .GalleryWrapMars {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img14 img14"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10 img10 img10"
+      "img11 img11 img11 img11"
+      "img12 img12 img12 img12"
+      "img13 img13 img13 img13"
+      "img15 img15 img15 img15";
+  }
+
+  .GalleryWrapJupiter {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(10, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img8 img8 img9 img9"
+      "img10 img10 img11 img11"
+      "img12 img12 img13 img13"
+      "img14 img14 img14 img14";
+  }
+
+  .GalleryWrapSaturn {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(11, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img11 img11 img11 img11"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10  img10 img10"
+      "img12 img12 img13 img13";
+  }
+
+  .GalleryWrapUranus {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img7 img7";
+  }
+
+  .GalleryWrapNeptune {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img7 img7";
+  }
+
+  .GalleryWrapPluto {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(5, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img4 img4"
+      "img3 img3 img3 img3"
+      "img5 img5 img5 img5"
+      "img6 img6 img6 img6";
+  }
+
+  .GalleryWrapMoon {
+    width: 80%;
+    grid-template-columns: repeat(4, minmax(150px, 150px));
+    grid-template-rows: repeat(11, auto);
+    padding: 2rem 0rem;
+    gap: 10px;
+    grid-template-areas:
+      "img1 img1 img1 img1"
+      "img2 img2 img2 img2"
+      "img3 img3 img3 img3"
+      "img4 img4 img4 img4"
+      "img5 img5 img5 img5"
+      "img6 img6 img6 img6"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
+      "img9 img9 img9 img9"
+      "img10 img10 img10 img10"
+      "img11 img11 img11 img11";
+  }
+
+  .creditsWrap {
+    height: 560px;
+  }
+}
+
+@media (max-width: 640px) {
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .m-heading {
+    font-size: 2rem;
+  }
+
+  .container {
+    height: 450px;
+  }
+
+  .primary {
+    padding-top: 3.5rem;
+  }
+
+  .primary h1 {
+    font-size: 2.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .primary p {
+    font-size: 1rem;
+  }
+
+  .sections {
+    display: none;
+  }
+
+  #home-contents {
+    padding: 0rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .paragraphs {
+    padding: 0rem;
+  }
+
+  .buttons {
+    height: 200px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 2.7rem 0rem;
+  }
+
+  .sun-wrap {
+    padding: 0rem;
+    width: 100%;
+    margin: auto;
+    height: 850px;
+  }
+
+  .sun-wrap .sun-img {
+    width: 340px;
+    min-width: 300px;
+    height: 180px;
+    min-height: 180px;
+    background-size: 100%;
+  }
+
+  .sun-wrap .sun-info {
+    padding: 1rem 0rem 0rem 1rem;
+    width: 85%;
+    margin-bottom: 4rem;
+  }
+
+  .sun-wrap .sun-info .sun-facts li {
+    padding-left: 0px;
+  }
+
+  .sun-wrap .sun-info .sun-facts h3 {
+    padding-left: 0px;
+  }
+
+  .sun-wrap .sun-info .explore-sun {
+    font-size: 1.25rem;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+
+  .ExploreHeading {
+    font-size: 2.75rem;
+  }
+
+  .explore-planets {
+    width: 90%;
+  }
+
+  .explore-planets .title {
+    padding-bottom: 0rem;
+  }
+
+  .showcase-h1_heading {
+    font-size: 2.4rem;
+  }
+
+  .showcase-h3_heading {
+    font-size: 1rem;
+  }
+
+  .showcase-p {
+    font-size: 1rem;
+  }
+
+  .quickFacts {
+    display: none;
+  }
+
+  .responsiveHeight {
+    height: 100vw;
+  }
+
+  fieldset > h3 {
+    font-size: 1.65rem !important;
+  }
+
+  .table_wrapper table {
+    width: 98% !important;
+  }
+
+  th {
+    padding: 0.5rem;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  #contents {
+    width: 90%;
+    margin: auto;
+    padding: 0rem;
+  }
+
+  .info_wrap {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+
+  .sun-structure {
+    max-width: 340px;
+    height: 230px;
+  }
+
+  .moon-wrap {
+    padding: 2rem 0rem;
+  }
+
+  .moon-img {
+    height: 40vw;
+  }
+
+  .moon-info {
+    padding: 1.5rem;
+  }
+
+  #phobos_wrap {
+    width: 90%;
+    margin: 20% auto 4rem auto;
+  }
+
+  .phobos-img {
+    height: 100vw;
+  }
+
+  .phobos_info_wrap {
+    padding: 1.5rem;
+  }
+
+  .phobos-img h1 {
+    font-size: 2.4rem;
+  }
+
+  #deimos_wrap {
+    width: 90%;
+    margin: 20% auto 4rem auto;
+  }
+
+  .deimos-img {
+    height: 100vw;
+  }
+
+  .deimos_info_wrap {
+    padding: 1.5rem;
+  }
+
+  .deimos-img h1 {
+    font-size: 2.4rem;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 340px));
+  }
+
+  .wrap .zoom {
+    height: 220px !important;
+  }
+
+  .wrap h3 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  #navbar {
+    height: 55px;
+  }
+
+  .navbar-links {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    background-color: black;
+  }
+
+  #navbar ul {
+    height: 0px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    background: black;
+    transition: height 0.6s cubic-bezier(0.65, 0.05, 0.36, 1),
+      opacity 0.6s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+
+  .navbar-links_active {
+    opacity: 1 !important ;
+    height: 350px !important ;
+  }
+
+  #navbar ul li {
+    font-size: 2rem;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-weight: 400;
+  }
+
+  #navbar ul li a::before {
+    display: none;
+  }
+
+  #navbar ul li a::after {
+    display: none;
+  }
+
+  .hamwrap {
+    display: flex;
+  }
+
+  .hamwrap_active {
+    display: block;
+  }
+
+  .ham {
+    height: 2.5px;
+    width: 35px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .hamwrap .first {
+    width: 25px;
+    margin-left: 10px;
+    transition: display 0.4s ease-out;
+  }
+
+  .hamwrap .f {
+    display: none;
+  }
+
+  .hamwrap .s {
+    position: absolute;
+    top: 26px;
+    transform: rotate(45deg);
+  }
+
+  .hamwrap .t {
+    position: absolute;
+    bottom: 26px;
+    transform: rotate(135deg);
+  }
+
+  #footer {
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+  }
+
+  #footer .footer-text {
+    text-align: left;
+    color: white;
+    padding-left: 0rem;
+  }
+
+  #footer .social-links i {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  #footer .social-links a:nth-child(2) i {
+    padding-right: 0rem;
+  }
+
+  .gridprops > div > video {
+    object-fit: contain !important;
+  }
+
+  .GalleryWrapSun {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+      "img9"
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img11"
+      "img10";
+  }
+
+  .GalleryWrapMercury {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+      "img1"
+      "img3"
+      "img2"
+      "img4"
+      "img5"
+      "img6";
+  }
+
+  .GalleryWrapVenus {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8";
+  }
+
+  .GalleryWrapEarth {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(14, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11"
+      "img12"
+      "img13"
+      "img14";
+  }
+
+  .GalleryWrapMars {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(15, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11"
+      "img12"
+      "img13"
+      "img14"
+      "img15";
+  }
+
+  .GalleryWrapJupiter {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(14, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11"
+      "img12"
+      "img13"
+      "img14";
+  }
+
+  .GalleryWrapSaturn {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(13, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11"
+      "img12"
+      "img13";
+  }
+
+  .GalleryWrapUranus {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7";
+  }
+
+  .GalleryWrapNeptune {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7";
+  }
+
+  .GalleryWrapPluto {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6";
+  }
+
+  .GalleryWrapMoon {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11";
+  }
+
+  .aboutWrap {
+    width: 90%;
+  }
+
+  .creditsWrap {
+    width: 90%;
+    height: 530px;
+  }
+}

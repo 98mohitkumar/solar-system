@@ -5,12 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/mont" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Jupiter - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Jupiter_i.svg">
 </head>
@@ -18,22 +15,30 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
     <!-- Jupiter Showcase -->
-    <div class="jupiter-showcase" id="top">
-        <div class="jupiter-showcase_wrap">
+    <div class="jupiter-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="jupiter-showcase_info">
                 <h1 class="showcase-h1_heading">J U P I T E R</h1>
                 <h3 class="showcase-h3_heading">628,730,000 KM</h3>
                 <p class="showcase-p">Jupiter is more than twice as massive than the other planets of our solar system
-                    combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth</p>
+                    combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth.</p>
             </div>
 
             <!-- scroll icon -->
@@ -43,6 +48,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="day">
+                <li>
+                    <h3>Day</h3>
+                </li>
+                <li>9.93 hours</li>
+            </div>
+
+            <div class="year">
+                <li>
+                    <h3>Year</h3>
+                </li>
+                <li>11.86 Earth Years</li>
+            </div>
+
+            <div class="diameter">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>142,984 kilometers</li>
+            </div>
+            <div class="planet_type">
+                <li>
+                    <h3>Planet Type</h3>
+                </li>
+                <li>Gas Giant</li>
+            </div>
+            <div class="moons">
+                <li>
+                    <h3>Moons</h3>
+                </li>
+                <li>53 confirmed <br> 26 provisional</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -78,7 +123,7 @@
             </p><br><br>
 
             <fieldset class="jupiter-facts">
-                <h3 style="padding-bottom: 0.6rem; font-size: 2rem; font-family: Gilroy-Medium, sans-serif;">
+                <h3 style="padding-bottom: 0.6rem; font-size: 2rem; font-family: Gilroy-Bold, sans-serif;">
                     Interesting Facts About
                     Jupiter</h3>
                 <ul>
@@ -264,7 +309,13 @@
 
                 Jupiter's magnetic field also causes some of the solar system's most spectacular aurorae at the planet's
                 poles.
-                ​ </p>
+                ​ </p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Jupiter-gallery.html">Jupiter Gallery &#8594</a></div>
+            </div>
+
         </div>
 
         <!-- Quick Facts -->
@@ -298,11 +349,6 @@
             </ul>
         </div>
 
-    </div>
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Jupiter-gallery.html">Jupiter Gallery &#8594</a></div>
     </div>
 
 

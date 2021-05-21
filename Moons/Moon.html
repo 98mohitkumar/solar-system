@@ -6,12 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/mont" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Earth's Moon - Our Solar System</title>
     <link rel="shortcut icon" type="image/svg" href="../Resources/icons/Moon_i.svg">
 </head>
@@ -19,20 +15,28 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explore.html">Explore</a></li>
-            <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../about.html">About</a></li>
-        </ul>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../explore.html">Explore</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="hamwrap">
+            <div class="first ham"></div>
+            <div class="second ham"></div>
+            <div class="third ham"></div>
+        </div>
     </nav>
 
-    <!-- Earth Showcase -->
-    <div class="moon-showcase" id="top">
-        <div class="moon-showcase_wrap">
+    <!-- Moon Showcase -->
+    <div class="moon-showcase responsiveHeight" id="top">
+        <div class="showcase_wrap">
             <div class="moon-showcase_info">
                 <h1 class="showcase-h1_heading">M O O N</h1>
-                <h3 class="showcase-h3_heading">385,000 KM</h3>
+                <h3 class="showcase-h3_heading">384,400 KM</h3>
                 <p class="showcase-p">Earth's Moon is the only place beyond Earth where humans have set foot, so far.
                     The Moon makes our planet more livable by moderating how much it wobbles on its axis.</p>
             </div>
@@ -44,6 +48,34 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="quickFacts">
+        <fieldset>
+            <div class="radius">
+                <li>
+                    <h3>Radius</h3>
+                </li>
+                <li>1,737.5 kilometers</li>
+            </div>
+
+            <div class="Distance">
+                <li>
+                    <h3>Distance from Earth</h3>
+                </li>
+                <li>384,400 kilometers</li>
+            </div>
+
+            <div class="orbital_period">
+                <li>
+                    <h3>Orbital Period</h3>
+                </li>
+                <li>27.3 days</li>
+            </div>
+
+
+            <legend>Quick Facts</legend>
+        </fieldset>
     </div>
 
     <div id="contents">
@@ -215,7 +247,12 @@
             <h2 class="m-heading" id="Magnetosphere">Magnetosphere</h2><br>
             <p>The early Moon may have developed an internal dynamo, the mechanism for generating global magnetic fields
                 for terrestrial planets, but today, the Moon has a very weak magnetic field. The magnetic field here on
-                Earth is many thousands of times stronger than the Moon's magnetic field.​</p>
+                Earth is many thousands of times stronger than the Moon's magnetic field.​</p><br><br>
+
+            <div class="buttons">
+                <div class="btn"><a href="#top">Back to Top</a></div>
+                <div class="btn"><a href="../Gallery/Moon-gallery.html">Moon Gallery &#8594</a></div>
+            </div>
 
         </div>
 
@@ -235,12 +272,6 @@
             </ul>
         </div>
     </div>
-
-    <div class="buttons">
-        <div class="btn"><a href="#top">Back to Top</a></div>
-        <div class="btn"><a href="../Gallery/Moon-gallery.html">Moon Gallery &#8594</a></div>
-    </div>
-
 
     <!-- Footer -->
     <footer id="footer">
