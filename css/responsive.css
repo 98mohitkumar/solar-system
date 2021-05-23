@@ -761,6 +761,7 @@
     display: block;
     height: 55px;
     width: 70px;
+    cursor: pointer;
   }
 
   .logo a {
@@ -784,8 +785,8 @@
     font-size: 2rem;
   }
 
-  .TD-model iframe {
-    height: 250px;
+  .TD-model {
+    display: none;
   }
 
   .container {
