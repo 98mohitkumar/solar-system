@@ -50,6 +50,10 @@ li {
 
 /* Utility */
 
+.logo {
+  display: none;
+}
+
 .l-heading {
   color: #fff;
   font-size: 5rem;
@@ -274,6 +278,11 @@ td {
   height: 100%;
   width: 100%;
   background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0) 100%);
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0) 100%
+  );
   z-index: 0;
 }
 
@@ -374,11 +383,17 @@ td {
 }
 
 .orbits {
-  background: url(../Resources/Solar_System.png) no-repeat center center/contain;
+  background: url("../Resources/Orbit.jpg") no-repeat center center/contain;
   width: auto;
   height: 900px;
   flex: 1;
   align-self: flex-end;
+}
+
+.orbits2 {
+  background: url("../Resources/Orbits 2.jpg") no-repeat center center/contain;
+  width: 100%;
+  height: 45vw;
 }
 
 .form-moons {
@@ -457,6 +472,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(255, 51, 0, 0.6)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(255, 51, 0, 0.6)
+  );
 }
 
 .sun-wrap .sun-info {
@@ -527,6 +547,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(197, 192, 190, 0.5)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(197, 192, 190, 0.5)
+  );
 }
 
 .wrap .mercury .explore-mercury {
@@ -549,6 +574,11 @@ td {
 
 .wrap .venus .venus-img::after {
   background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(227, 185, 144, 0.5)
+  );
+  background-image: -webkit-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
     rgba(227, 185, 144, 0.5)
@@ -579,6 +609,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(93, 147, 188, 0.5)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(93, 147, 188, 0.5)
+  );
 }
 
 .wrap .earth .explore-earth {
@@ -601,6 +636,11 @@ td {
 
 .wrap .mars .mars-img::after {
   background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(211, 123, 77, 0.5)
+  );
+  background-image: -webkit-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
     rgba(211, 123, 77, 0.5)
@@ -631,6 +671,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(181, 148, 107, 0.5)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(181, 148, 107, 0.5)
+  );
 }
 
 .wrap .jupiter .explore-jupiter {
@@ -653,6 +698,11 @@ td {
 
 .wrap .saturn .saturn-img::after {
   background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(201, 163, 114, 0.5)
+  );
+  background-image: -webkit-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
     rgba(201, 163, 114, 0.5)
@@ -683,6 +733,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(158, 228, 230, 0.5)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(158, 228, 230, 0.5)
+  );
 }
 
 .wrap .uranus .explore-uranus {
@@ -709,6 +764,11 @@ td {
     rgba(0, 0, 0, 0.2),
     rgba(72, 119, 253, 0.5)
   );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(72, 119, 253, 0.5)
+  );
 }
 
 .wrap .neptune .explore-neptune {
@@ -731,6 +791,11 @@ td {
 
 .wrap .pluto .pluto-img::after {
   background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(121, 48, 40, 0.5)
+  );
+  background-image: -webkit-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
     rgba(121, 48, 40, 0.5)
@@ -777,6 +842,11 @@ td {
     rgba(162, 23, 8, 0.6),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(162, 23, 8, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: soft-light;
   z-index: 0;
 }
@@ -791,6 +861,11 @@ td {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -823,24 +898,20 @@ td {
   flex: 8;
 }
 
-.earth-sun_scale_wrap,
-.planets-sun_scale_wrap {
-  width: 85%;
-  margin: auto;
-}
-
 .earth-sun_scale {
   background: url("../Resources/Earth-sun_scale.jpeg") no-repeat center
-    center/cover;
-  width: 800px;
-  height: 500px;
+    center/contain;
+  width: 90%;
+  height: 34vw;
+  margin: auto;
 }
 
 .planets-sun_scale {
   background: url("../Resources/Planets-sun_scale.jpg") no-repeat center
-    center/cover;
-  width: 800px;
-  height: 500px;
+    center/contain;
+  width: 90%;
+  height: 34vw;
+  margin: auto;
 }
 
 .sun-regions {
@@ -851,16 +922,12 @@ td {
   border: 2px dotted white;
 }
 
-.sun-structureWrap {
-  width: 88%;
-  margin: auto;
-}
-
 .sun-structure {
   background: url("../Resources/Sun-structure.jpg") no-repeat center
-    center/cover;
-  width: 830px;
-  height: 559px;
+    center/contain;
+  width: 90%;
+  height: 36vw;
+  margin: auto;
 }
 
 /* Explore Mercury */
@@ -891,6 +958,11 @@ td {
     rgba(110, 110, 110, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(110, 110, 110, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: color-dodge;
   z-index: 0;
 }
@@ -905,6 +977,11 @@ td {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -926,16 +1003,18 @@ td {
   height: auto;
 }
 
-.MercuryStructureWrap {
-  width: 80%;
+.messenger {
+  background: url("../Resources/Mercury Messenger.jpg") no-repeat center
+    center/contain;
   margin: auto;
 }
 
-.MercuryStructureimg {
+.MercuryStructure {
   background: url("../Resources/internal structure of mercury.jpg") no-repeat
-    center center/cover;
+    center center/contain;
   width: 750px;
   height: 500px;
+  margin: auto;
 }
 
 fieldset.mercury-temperature {
@@ -977,6 +1056,11 @@ fieldset.mercury-temperature {
     rgba(160, 134, 98, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(160, 134, 98, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -991,6 +1075,11 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -1010,6 +1099,20 @@ fieldset.mercury-temperature {
   margin: auto;
   max-width: 1100px;
   height: auto;
+}
+
+.mariner2 {
+  background: url("../Resources/Venus Mariner2.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.VenusStructure {
+  background: url("../Resources/Venus Structure.jpg") no-repeat center
+    center/contain;
+  width: 600px;
+  height: 450px;
+  margin: auto;
 }
 
 /* Explore Earth */
@@ -1040,6 +1143,11 @@ fieldset.mercury-temperature {
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
   z-index: 0;
 }
 
@@ -1055,6 +1163,20 @@ fieldset.mercury-temperature {
   margin: auto;
   max-width: 1100px;
   height: auto;
+}
+
+.galileo {
+  background: url("../Resources/Earth Galileo.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.EarthStructure {
+  background: url("../Resources/Earth Structure.jpg") no-repeat center
+    center/contain;
+  width: 90%;
+  height: 39vw;
+  margin: auto;
 }
 
 .moon-wrap {
@@ -1126,6 +1248,11 @@ fieldset.mercury-temperature {
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
   z-index: 0;
 }
 
@@ -1171,6 +1298,11 @@ fieldset.mercury-temperature {
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(210, 136, 99, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -1185,6 +1317,11 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -1210,8 +1347,30 @@ fieldset.mercury-temperature {
   color: #fff;
 }
 
+.mariner9 {
+  background: url("../Resources/Mars Mariner9.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
 .mars-exploration a {
   color: #43aaed;
+}
+
+.MarsStructure {
+  background: url("../Resources/Mars Structure.jpg") no-repeat center
+    center/contain;
+  width: 800px;
+  height: 553px;
+  margin: auto;
+}
+
+.MarsLandscape {
+  background: url("https://live.staticflickr.com/683/31736548160_eb58c2396e_b_d.jpg")
+    no-repeat center center/contain;
+  width: 90%;
+  height: 28vw;
+  margin: auto;
 }
 
 /* Phobos */
@@ -1279,6 +1438,11 @@ fieldset.mercury-temperature {
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.5)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(210, 136, 99, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
   width: 100%;
   height: 100%;
   mix-blend-mode: multiply;
@@ -1295,6 +1459,11 @@ fieldset.mercury-temperature {
   width: 100%;
   height: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 40%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 40%
@@ -1408,6 +1577,10 @@ fieldset.mercury-temperature {
     to bottom,
     rgba(210, 136, 99, 0.502) rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(210, 136, 99, 0.502) rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: multiply;
   z-index: 1;
 }
@@ -1422,6 +1595,11 @@ fieldset.mercury-temperature {
   width: 100%;
   height: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.5) 40%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.5) 40%
@@ -1489,6 +1667,11 @@ fieldset.mercury-temperature {
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(210, 136, 99, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -1503,6 +1686,11 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -1545,18 +1733,43 @@ fieldset .jupiter-features {
   color: #43aaed;
 }
 
-.o-img {
-  background: url("../Resources/jupiter-orbit.jpg") no-repeat center
-    center/cover;
-  max-width: 500px;
-  height: 375px;
+.juno {
+  background: url("../Resources/Jupiter Juno.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.europa {
+  background: url("https://live.staticflickr.com/65535/50088202822_ea7291b85c_k_d.jpg")
+    no-repeat center center/contain;
+  width: 90%;
+  height: 31vw;
+  margin: auto;
+}
+
+.europacaption {
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.jupiterMoons {
+  background: url("https://live.staticflickr.com/8823/29253020675_e4c0321052_k_d.jpg")
+    no-repeat center center/contain;
+  width: 90%;
+  height: 32vw;
+  margin: auto;
 }
 
 .s-img {
   background: url("../Resources/Jupiter_structure.png") no-repeat center
-    center/cover;
-  max-width: 720px;
-  height: 360px;
+    center/contain;
+  width: 100%;
+  height: 32vw;
+  margin: auto;
 }
 
 /* Explore Saturn */
@@ -1587,6 +1800,11 @@ fieldset .jupiter-features {
     rgba(201, 163, 114, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(201, 163, 114, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -1605,11 +1823,45 @@ fieldset .jupiter-features {
   height: auto;
 }
 
+.cassini {
+  background: url("../Resources/Saturn Cassini.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.SaturnStructure {
+  background: url("../Resources/Saturn structure.jpg") no-repeat center
+    center/contain;
+  width: 100%;
+  height: 42vw;
+  margin: auto;
+}
+
 .titan {
   background: url("../Resources/Titan.jpg") no-repeat center center/cover;
-  max-width: 700px;
-  height: 394px;
+  width: 90%;
+  height: 32vw;
+  margin: auto;
 }
+
+.enceladus {
+  background: url("https://live.staticflickr.com/4783/40942341431_2c3b4ebfa4_o_d.jpg")
+    no-repeat center center/contain;
+  width: 60%;
+  height: 39vw;
+  margin: auto;
+}
+
+.enceladuscaption {
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
 /* Explore Uranus */
 
 .uranus-showcase {
@@ -1638,6 +1890,11 @@ fieldset .jupiter-features {
     rgba(122, 175, 177, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(122, 175, 177, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -1652,6 +1909,11 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.2) 60%
+  );
+  background: -webkit-linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
@@ -1671,6 +1933,20 @@ fieldset .jupiter-features {
   margin: auto;
   max-width: 1100px;
   height: auto;
+}
+
+.voyager2 {
+  background: url("../Resources/Uranus Voyager.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.UranusStructure {
+  background: url("../Resources/Uranus structure.jpg") no-repeat center
+    center/contain;
+  width: 100%;
+  height: 42vw;
+  margin: auto;
 }
 
 /* Explore Neptune */
@@ -1701,6 +1977,11 @@ fieldset .jupiter-features {
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.6)
   );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(59, 82, 145, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
   mix-blend-mode: overlay;
   z-index: 0;
 }
@@ -1722,6 +2003,20 @@ fieldset .jupiter-features {
 .why_so_blue {
   color: #fff;
   padding: 0.5rem 1.4rem 1.25rem 1.4rem;
+}
+
+.voyager2neptune {
+  background: url("../Resources/Neptune Voyager.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.NeptuneStructure {
+  background: url("../Resources/Neptune structure.jpg") no-repeat center
+    center/contain;
+  width: 100%;
+  height: 43vw;
+  margin: auto;
 }
 
 /* Explore Pluto */
@@ -1748,6 +2043,11 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) 60%);
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.4) 60%
+  );
   z-index: 0;
 }
 
@@ -1763,6 +2063,17 @@ fieldset .jupiter-features {
   margin: auto;
   max-width: 1100px;
   height: auto;
+}
+
+.newhorizons {
+  background: url("../Resources/Pluto New Horizons.jpg") no-repeat center
+    center/contain;
+  margin: auto;
+}
+
+.responsiveAspect {
+  width: 95%;
+  height: 30vw;
 }
 
 /* Gallery */
@@ -1812,6 +2123,11 @@ fieldset .jupiter-features {
     rgba(222, 164, 91, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(222, 164, 91, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Mercury Gallery */
@@ -1844,6 +2160,11 @@ fieldset .jupiter-features {
 
 .gradientmercury {
   background-image: linear-gradient(
+    to top,
+    rgba(143, 139, 129, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-image: -webkit-linear-gradient(
     to top,
     rgba(143, 139, 129, 0.5),
     rgba(0, 0, 0, 0.2)
@@ -1884,6 +2205,11 @@ fieldset .jupiter-features {
     rgba(233, 196, 163, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(233, 196, 163, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Earth Gallery */
@@ -1916,6 +2242,11 @@ fieldset .jupiter-features {
 
 .gradientearth {
   background-image: linear-gradient(
+    to top,
+    rgba(110, 151, 179, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-image: -webkit-linear-gradient(
     to top,
     rgba(110, 151, 179, 0.5),
     rgba(0, 0, 0, 0.2)
@@ -1956,6 +2287,11 @@ fieldset .jupiter-features {
     rgba(191, 138, 68, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(191, 138, 68, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Jupiter Gallery */
@@ -1988,6 +2324,11 @@ fieldset .jupiter-features {
 
 .gradientjupiter {
   background-image: linear-gradient(
+    to top,
+    rgba(198, 145, 108, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-image: -webkit-linear-gradient(
     to top,
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
@@ -2028,6 +2369,11 @@ fieldset .jupiter-features {
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(198, 145, 108, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Uranus Gallery */
@@ -2060,6 +2406,11 @@ fieldset .jupiter-features {
 
 .gradienturanus {
   background-image: linear-gradient(
+    to top,
+    rgba(158, 228, 230, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-image: -webkit-linear-gradient(
     to top,
     rgba(158, 228, 230, 0.5),
     rgba(0, 0, 0, 0.2)
@@ -2100,6 +2451,11 @@ fieldset .jupiter-features {
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(59, 82, 145, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Pluto Gallery */
@@ -2136,6 +2492,11 @@ fieldset .jupiter-features {
     rgba(185, 81, 70, 0.5),
     rgba(0, 0, 0, 0.2)
   );
+  background-image: -webkit-linear-gradient(
+    to top,
+    rgba(185, 81, 70, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
 }
 
 /* Moon Gallery */
@@ -2168,6 +2529,11 @@ fieldset .jupiter-features {
 
 .gradientmoon {
   background-image: linear-gradient(
+    to top,
+    rgba(66, 66, 66, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-image: -webkit-linear-gradient(
     to top,
     rgba(66, 66, 66, 0.5),
     rgba(0, 0, 0, 0.2)
@@ -2215,13 +2581,15 @@ fieldset .jupiter-features {
 /* Sun Gallery Page */
 
 .GalleryWrapSun {
-  grid-template-rows: repeat(7, minmax(400px, 400px));
+  grid-template-rows: repeat(9, minmax(400px, 400px));
   grid-template-areas:
     "img9 img9 img9 img9 img9 img9"
     "img9 img9 img9 img9 img9 img9"
     "img1 img1 img2 img2 img3 img3"
     "img4 img4 img5 img5 img6 img6"
-    "img7 img7 img8 img8 img11 img11"
+    "img7 img7 img7 img7 img8 img8"
+    "img11 img11 img11 img11 img11 img11"
+    "img11 img11 img11 img11 img11 img11"
     "img10 img10 img10 img10 img10 img10"
     "img10 img10 img10 img10 img10 img10";
 }
@@ -2441,7 +2809,7 @@ fieldset .jupiter-features {
 }
 
 .creditsWrap {
-  width: 60%;
+  width: 80%;
   height: 295px;
   margin: auto;
   margin-top: 2rem;
@@ -2457,7 +2825,7 @@ fieldset .jupiter-features {
 
 .credits > div {
   text-align: center;
-  padding: 2rem 0rem;
+  padding: 2rem;
 }
 
 .hamwrap {

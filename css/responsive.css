@@ -3,6 +3,14 @@
     font-size: 4rem;
   }
 
+  .gridprops > div > video {
+    object-fit: contain !important;
+  }
+
+  .TD-model iframe {
+    height: 300px;
+  }
+
   .sun-wrap .sun-img:hover {
     background-size: 115%;
   }
@@ -87,6 +95,87 @@
     min-height: 350px;
   }
 
+  .earth-sun_scale,
+  .planets-sun_scale,
+  .sun-structure {
+    width: 90%;
+    height: 28vw;
+  }
+
+  .responsiveAspect {
+    width: 90%;
+    height: 24vw;
+  }
+
+  .MercuryStructure {
+    width: 90%;
+    height: 32vw;
+  }
+
+  .VenusStructure {
+    width: 90%;
+    height: 36vw;
+  }
+
+  .EarthStructure {
+    width: 90%;
+    height: 33vw;
+  }
+
+  .MarsStructure {
+    width: 90%;
+    height: 31vw;
+  }
+
+  .s-img {
+    width: 100%;
+    height: 26vw;
+  }
+
+  .JMoons {
+    width: 90%;
+    height: 27vw;
+  }
+
+  .JMoonscaption {
+    font-size: 1.25rem !important;
+  }
+
+  .europacaption {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .SaturnStructure {
+    width: 90%;
+    height: 32vw;
+  }
+
+  .titan {
+    width: 90%;
+    height: 26vw;
+  }
+
+  .enceladus {
+    width: 70%;
+    height: 38vw;
+  }
+
+  .enceladuscaption {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .UranusStructure {
+    width: 100%;
+    height: 34vw;
+  }
+
+  .NeptuneStructure {
+    width: 100%;
+    height: 36vw;
+  }
+
   .showcase_wrap {
     height: 350px;
   }
@@ -139,7 +228,7 @@
   .GalleryWrapSun {
     width: 80%;
     grid-template-columns: repeat(4, minmax(175px, 175px));
-    grid-template-rows: repeat(7, minmax(350px, 350px));
+    grid-template-rows: repeat(8, auto);
     padding: 2rem;
     gap: 1rem;
     grid-template-areas:
@@ -147,7 +236,8 @@
       "img1 img1 img2 img2"
       "img3 img3 img4 img4"
       "img5 img5 img6 img6"
-      "img7 img7 img8 img8"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
       "img11 img11 img11 img11"
       "img10 img10 img10 img10";
   }
@@ -381,6 +471,74 @@
     margin-top: 3rem;
   }
 
+  .earth-sun_scale,
+  .planets-sun_scale,
+  .sun-structure {
+    width: 90%;
+    height: 35vw;
+  }
+
+  .responsiveAspect {
+    width: 90%;
+    height: 28vw;
+  }
+
+  .MercuryStructure {
+    width: 90%;
+    height: 37vw;
+  }
+
+  .VenusStructure {
+    width: 90%;
+    height: 42vw;
+  }
+
+  .EarthStructure {
+    width: 100%;
+    height: 41vw;
+  }
+
+  .MarsStructure {
+    width: 90%;
+    height: 39vw;
+  }
+
+  .s-img {
+    width: 100%;
+    height: 31vw;
+  }
+
+  .JMoons {
+    width: 95%;
+    height: 33vw;
+  }
+
+  .europacaption {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .SaturnStructure {
+    width: 90%;
+    height: 37vw;
+  }
+
+  .titan {
+    width: 90%;
+    height: 31vw;
+  }
+
+  .enceladus {
+    width: 70%;
+    height: 44vw;
+  }
+
+  .UranusStructure,
+  .NeptuneStructure {
+    width: 100%;
+    height: 42vw;
+  }
+
   .quickFacts fieldset {
     display: flex;
     justify-content: space-between;
@@ -402,7 +560,7 @@
   .GalleryWrapSun {
     width: 80%;
     grid-template-columns: repeat(4, minmax(150px, 150px));
-    grid-template-rows: repeat(7, minmax(300px, 300px));
+    grid-template-rows: repeat(8, auto);
     padding: 2rem 0rem;
     gap: 10px;
     grid-template-areas:
@@ -410,7 +568,8 @@
       "img1 img1 img2 img2"
       "img3 img3 img4 img4"
       "img5 img5 img6 img6"
-      "img7 img7 img8 img8"
+      "img7 img7 img7 img7"
+      "img8 img8 img8 img8"
       "img11 img11 img11 img11"
       "img10 img10 img10 img10";
   }
@@ -585,17 +744,48 @@
   }
 
   .creditsWrap {
-    height: 560px;
+    height: 680px;
   }
 }
 
 @media (max-width: 640px) {
+  td {
+    padding: 0.79rem;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.75rem;
+    display: block;
+    height: 55px;
+    width: 70px;
+  }
+
+  .logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo a img {
+    object-fit: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
   .l-heading {
     font-size: 3rem;
   }
 
   .m-heading {
     font-size: 2rem;
+  }
+
+  .TD-model iframe {
+    height: 250px;
   }
 
   .container {
@@ -870,6 +1060,88 @@
     transform: rotate(135deg);
   }
 
+  .orbits2 {
+    width: 100%;
+    height: 60vw;
+  }
+
+  .earth-sun_scale,
+  .planets-sun_scale,
+  .sun-structure {
+    width: 340px;
+    height: 212px;
+  }
+
+  .responsiveAspect {
+    width: 340px;
+    height: 168px;
+  }
+
+  .MercuryStructure {
+    width: 340px;
+    height: 230px;
+  }
+
+  .VenusStructure {
+    width: 340px;
+    height: 260px;
+  }
+
+  .EarthStructure {
+    width: 340px;
+    height: 225px;
+  }
+
+  .MarsStructure {
+    width: 340px;
+    height: 236px;
+  }
+
+  .s-img {
+    width: 340px;
+    height: 172px;
+  }
+
+  .JMoons {
+    width: 340px;
+    height: 190px;
+  }
+
+  .europacaption {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .SaturnStructure {
+    width: 340px;
+    height: 226px;
+  }
+
+  .titan {
+    width: 340px;
+    height: 195px;
+  }
+
+  .enceladus {
+    width: 340px;
+    height: 340px;
+  }
+
+  .enceladuscaption {
+    font-size: 1.75rem;
+    letter-spacing: 6px;
+  }
+
+  .UranusStructure {
+    width: 340px;
+    height: 230px;
+  }
+
+  .NeptuneStructure {
+    width: 340px;
+    height: 226px;
+  }
+
   #footer {
     width: 100%;
     padding: 0.25rem 1.5rem;
@@ -1078,6 +1350,6 @@
 
   .creditsWrap {
     width: 90%;
-    height: 530px;
+    height: 660px;
   }
 }
