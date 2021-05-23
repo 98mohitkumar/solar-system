@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 @import url("https://api.fontshare.com/css?f[]=general-sans@500&display=swap");
 
@@ -172,6 +172,10 @@ p {
 
 .quick-facts li:nth-child(even) {
   padding-bottom: 1rem;
+}
+
+.TD-model {
+  margin-bottom: 1.5rem;
 }
 
 table {
@@ -418,7 +422,7 @@ td {
 }
 
 .btn a {
-  width: 200px;
+  width: 205px;
   padding: 0.75rem 1.5rem;
   display: block;
   color: white;
