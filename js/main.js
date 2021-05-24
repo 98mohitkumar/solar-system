@@ -1,5 +1,5 @@
 // Smooth Scrolling with offset
-$(".sections a, .btn a").on("click", function (event) {
+$(".sections a, .btn a, .logo a").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 

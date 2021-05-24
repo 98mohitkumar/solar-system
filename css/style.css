@@ -102,6 +102,7 @@ p {
   align-self: flex-start;
   height: auto;
   padding-top: 8rem;
+  flex: 0 1 auto;
 }
 
 .sections ul li {
@@ -166,6 +167,7 @@ p {
   align-self: flex-start;
   height: auto;
   padding-top: 8rem;
+  flex: 0 1 auto;
 }
 
 .quick-facts li:nth-child(even) {
@@ -281,11 +283,11 @@ td {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), #000000e8 100%);
   background: -webkit-linear-gradient(
     to bottom,
     rgb(0, 0, 0, 0),
-    rgb(0, 0, 0) 100%
+    #000000e8 100%
   );
   z-index: 0;
 }
@@ -371,7 +373,7 @@ td {
 .paragraphs {
   padding: 2rem 0rem 2rem 5rem;
   color: white;
-  flex: 8;
+  flex: 1;
 }
 
 .flex-wrap {
@@ -826,7 +828,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   background: url(../Resources/Sun_showcase.jpg) no-repeat center center/cover;
   overflow: hidden;
@@ -899,7 +901,7 @@ td {
 .info_wrap {
   padding: 2rem 5rem;
   overflow: hidden;
-  flex: 8;
+  flex: 1;
 }
 
 .earth-sun_scale {
@@ -941,7 +943,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Mercury_showcase.jpg") no-repeat center
@@ -1039,7 +1041,7 @@ fieldset.mercury-temperature {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Venus_showcase.jpg") no-repeat center
@@ -1126,7 +1128,7 @@ fieldset.mercury-temperature {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Earth_showcase.jpg") no-repeat center
@@ -1231,7 +1233,7 @@ fieldset.mercury-temperature {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Moon_showcase.jpg") no-repeat center
@@ -1281,7 +1283,7 @@ fieldset.mercury-temperature {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Mars_showcase.jpg") no-repeat center
@@ -1650,7 +1652,7 @@ fieldset.mercury-temperature {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Jupiter_showcase.jpg") no-repeat center
@@ -1783,7 +1785,7 @@ fieldset .jupiter-features {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Saturn_showcase.jpg") no-repeat center
@@ -1873,7 +1875,7 @@ fieldset .jupiter-features {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Uranus_showcase.jpg") no-repeat center
@@ -1960,7 +1962,7 @@ fieldset .jupiter-features {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Neptune_showcase.jpg") no-repeat center
@@ -2030,7 +2032,7 @@ fieldset .jupiter-features {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 760px;
   width: 100%;
   overflow: hidden;
   background: url("../Resources/Pluto_showcase.jpg") no-repeat center
