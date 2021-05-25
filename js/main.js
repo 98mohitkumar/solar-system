@@ -30,6 +30,8 @@ const hamButton = document.querySelector(".hamwrap");
 
 const navbarLinks = document.querySelector(".navbar-links ul");
 
+const closeHam = document.querySelector(".navbar-links");
+
 const cross = document.querySelector(".first");
 
 const cross1 = document.querySelector(".second");
@@ -43,6 +45,20 @@ hamButton.addEventListener("click", (e) => {
   cross.classList.toggle("f");
   cross1.classList.toggle("s");
   cross2.classList.toggle("t");
+  closeHam.classList.toggle("navbar-links_expanded");
+});
+
+closeHam.addEventListener("click", () => {
+  document.querySelector(".hamwrap").click();
+});
+
+window.addEventListener("scroll", () => {
+  navbarLinks.classList.remove("navbar-links_active");
+  hamButton.classList.remove("hamwrap_active");
+  cross.classList.remove("f");
+  cross1.classList.remove("s");
+  cross2.classList.remove("t");
+  closeHam.classList.remove("navbar-links_expanded");
 });
 
 //  Phobos

@@ -753,7 +753,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 0.75rem;
     display: block;
     height: 55px;
     width: 70px;
@@ -763,6 +762,7 @@
     display: block;
     height: 100%;
     width: 100%;
+    padding: 0.75rem 19.5px;
   }
 
   .logo a img {
@@ -985,7 +985,10 @@
     position: absolute;
     width: 100%;
     top: 55px;
-    background-color: black;
+  }
+
+  .navbar-links_expanded {
+    height: 100vh;
   }
 
   #navbar ul {
@@ -1008,6 +1011,7 @@
     font-size: 2rem;
     font-family: "Gilroy-Bold", sans-serif;
     font-weight: 400;
+    padding: 0rem;
   }
 
   #navbar ul li a::before {
@@ -1016,6 +1020,10 @@
 
   #navbar ul li a::after {
     display: none;
+  }
+
+  #navbar ul li a {
+    width: 100%;
   }
 
   .hamwrap {
