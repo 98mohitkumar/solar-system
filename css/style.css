@@ -2548,6 +2548,11 @@ fieldset .jupiter-features {
 .gallerylinks a {
   font-size: 1.4rem;
   font-family: "General Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Sun Gallery Page */
