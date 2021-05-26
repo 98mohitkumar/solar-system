@@ -279,12 +279,8 @@ td {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), #000000e8 100%);
-  background: -webkit-linear-gradient(
-    to bottom,
-    rgb(0, 0, 0, 0),
-    #000000e8 100%
-  );
+  background: linear-gradient(180deg, rgb(0, 0, 0, 0), #000000e8 100%);
+  background: -webkit-linear-gradient(270deg, rgb(0, 0, 0, 0), #000000e8 100%);
   z-index: 0;
 }
 
@@ -470,12 +466,12 @@ td {
   z-index: 1;
   border-radius: 10px;
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(255, 51, 0, 0.6)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(255, 51, 0, 0.6)
   );
@@ -545,12 +541,12 @@ td {
 
 .wrap .mercury .mercury-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(197, 192, 190, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(197, 192, 190, 0.5)
   );
@@ -576,12 +572,12 @@ td {
 
 .wrap .venus .venus-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(227, 185, 144, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(227, 185, 144, 0.5)
   );
@@ -607,12 +603,12 @@ td {
 
 .wrap .earth .earth-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(93, 147, 188, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(93, 147, 188, 0.5)
   );
@@ -638,12 +634,12 @@ td {
 
 .wrap .mars .mars-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(211, 123, 77, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(211, 123, 77, 0.5)
   );
@@ -669,12 +665,12 @@ td {
 
 .wrap .jupiter .jupiter-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(181, 148, 107, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(181, 148, 107, 0.5)
   );
@@ -700,12 +696,12 @@ td {
 
 .wrap .saturn .saturn-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(201, 163, 114, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(201, 163, 114, 0.5)
   );
@@ -731,12 +727,12 @@ td {
 
 .wrap .uranus .uranus-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(158, 228, 230, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(158, 228, 230, 0.5)
   );
@@ -762,12 +758,12 @@ td {
 
 .wrap .neptune .neptune-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(72, 119, 253, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(72, 119, 253, 0.5)
   );
@@ -793,12 +789,12 @@ td {
 
 .wrap .pluto .pluto-img::after {
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     rgba(0, 0, 0, 0.2),
     rgba(121, 48, 40, 0.5)
   );
   background-image: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0.2),
     rgba(121, 48, 40, 0.5)
   );
@@ -845,7 +841,7 @@ td {
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    180deg,
+    270deg,
     rgba(162, 23, 8, 0.6),
     rgba(0, 0, 0, 0.6)
   );
@@ -868,7 +864,7 @@ td {
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    180deg,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -956,12 +952,12 @@ td {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(110, 110, 110, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(110, 110, 110, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -979,12 +975,12 @@ td {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1054,12 +1050,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(160, 134, 98, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(160, 134, 98, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -1077,12 +1073,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1140,13 +1136,9 @@ fieldset.mercury-temperature {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.2) 60%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 60%);
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1245,13 +1237,9 @@ fieldset.mercury-temperature {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.2) 60%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 60%);
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1296,12 +1284,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -1319,12 +1307,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1436,12 +1424,12 @@ fieldset.mercury-temperature {
   right: 0;
   left: 0;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.5)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.5)
   );
@@ -1461,12 +1449,12 @@ fieldset.mercury-temperature {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 40%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 40%
   );
@@ -1576,11 +1564,11 @@ fieldset.mercury-temperature {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(210, 136, 99, 0.502) rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(210, 136, 99, 0.502) rgba(0, 0, 0, 0.6)
   );
   mix-blend-mode: multiply;
@@ -1597,12 +1585,12 @@ fieldset.mercury-temperature {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.5) 40%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.5) 40%
   );
@@ -1665,12 +1653,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(210, 136, 99, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -1688,12 +1676,12 @@ fieldset.mercury-temperature {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1798,12 +1786,12 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(201, 163, 114, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(201, 163, 114, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -1888,12 +1876,12 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(122, 175, 177, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(122, 175, 177, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -1911,12 +1899,12 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0.2) 60%
   );
@@ -1975,12 +1963,12 @@ fieldset .jupiter-features {
   height: 100%;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    180deg,
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.6)
   );
   background: -webkit-linear-gradient(
-    to bottom,
+    270deg,
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.6)
   );
@@ -2033,24 +2021,6 @@ fieldset .jupiter-features {
   overflow: hidden;
   background: url("../Resources/Pluto_showcase.jpg") no-repeat center
     center/cover;
-}
-
-.pluto-showcase::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) 60%);
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.4) 60%
-  );
-  z-index: 0;
 }
 
 .pluto-showcase .pluto-showcase_wrap {
@@ -2121,12 +2091,12 @@ fieldset .jupiter-features {
 
 .gradientsun {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(222, 164, 91, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(222, 164, 91, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2162,12 +2132,12 @@ fieldset .jupiter-features {
 
 .gradientmercury {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(143, 139, 129, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(143, 139, 129, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2203,12 +2173,12 @@ fieldset .jupiter-features {
 
 .gradientvenus {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(233, 196, 163, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(233, 196, 163, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2244,12 +2214,12 @@ fieldset .jupiter-features {
 
 .gradientearth {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(110, 151, 179, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(110, 151, 179, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2285,12 +2255,12 @@ fieldset .jupiter-features {
 
 .gradientmars {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(191, 138, 68, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(191, 138, 68, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2326,12 +2296,12 @@ fieldset .jupiter-features {
 
 .gradientjupiter {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2367,12 +2337,12 @@ fieldset .jupiter-features {
 
 .gradientsaturn {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(198, 145, 108, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2408,12 +2378,12 @@ fieldset .jupiter-features {
 
 .gradienturanus {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(158, 228, 230, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(158, 228, 230, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2449,12 +2419,12 @@ fieldset .jupiter-features {
 
 .gradientneptune {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(59, 82, 145, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2490,12 +2460,12 @@ fieldset .jupiter-features {
 
 .gradientpluto {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(185, 81, 70, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(185, 81, 70, 0.5),
     rgba(0, 0, 0, 0.2)
   );
@@ -2531,12 +2501,12 @@ fieldset .jupiter-features {
 
 .gradientmoon {
   background-image: linear-gradient(
-    to top,
+    0deg,
     rgba(66, 66, 66, 0.5),
     rgba(0, 0, 0, 0.2)
   );
   background-image: -webkit-linear-gradient(
-    to top,
+    90deg,
     rgba(66, 66, 66, 0.5),
     rgba(0, 0, 0, 0.2)
   );
