@@ -283,8 +283,12 @@ td {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, rgb(0, 0, 0, 0), #000000e8 100%);
-  background: -webkit-linear-gradient(270deg, rgb(0, 0, 0, 0), #000000e8 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 100%
+  );
   z-index: 0;
 }
 
