@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
   .showcase-h1_heading {
     font-size: 4rem;
   }
@@ -420,13 +420,17 @@
 
   .creditsWrap {
     width: 70%;
-    height: 775px;
+    height: auto;
   }
 
   .credits > div {
     width: 100%;
     text-align: center;
     padding: 2rem 0rem;
+  }
+
+  .fixwrap {
+    min-height: calc(100vh - 61.6px);
   }
 }
 
@@ -740,7 +744,7 @@
   }
 
   .creditsWrap {
-    height: 680px;
+    height: auto;
   }
 }
 
@@ -1355,6 +1359,6 @@
 
   .creditsWrap {
     width: 90%;
-    height: 660px;
+    height: auto;
   }
 }

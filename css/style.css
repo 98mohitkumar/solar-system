@@ -139,6 +139,7 @@ p {
 }
 
 #footer {
+  width: 100%;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   padding: 1rem 3rem 1rem 3rem;
 }
@@ -2785,13 +2786,13 @@ fieldset .jupiter-features {
 .aboutWrap {
   width: 60%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
 .creditsWrap {
   width: 80%;
-  height: 295px;
+  height: auto;
   margin: auto;
   margin-top: 2rem;
   color: white;
@@ -2807,6 +2808,14 @@ fieldset .jupiter-features {
 .credits > div {
   text-align: center;
   padding: 2rem;
+}
+
+.fixwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh + 61.6px);
 }
 
 .hamwrap {
