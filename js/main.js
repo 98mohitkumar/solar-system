@@ -41,7 +41,6 @@ const cross2 = document.querySelector(".third");
 hamButton.addEventListener("click", (e) => {
   e.preventDefault();
   navbarLinks.classList.toggle("navbar-links_active");
-  hamButton.classList.toggle("hamwrap_active");
   cross.classList.toggle("f");
   cross1.classList.toggle("s");
   cross2.classList.toggle("t");
