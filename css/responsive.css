@@ -1,4 +1,8 @@
 @media (max-width: 1280px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   .showcase-h1_heading {
     font-size: 4rem;
   }
