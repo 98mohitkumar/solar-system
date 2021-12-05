@@ -1,6 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
-@import url("https://api.fontshare.com/css?f[]=general-sans@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 *,
 *::before,
@@ -219,7 +219,7 @@ td {
   color: white;
   padding: 0rem 1.5rem;
   font-size: 1.25rem;
-  font-family: "General Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: center;
 }
 
@@ -2819,7 +2819,7 @@ fieldset .jupiter-features {
   width: 70px;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   display: none;
   cursor: pointer;
 }
