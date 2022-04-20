@@ -105,6 +105,10 @@ p {
   flex: 0 1 auto;
 }
 
+.sections h3 {
+  font-weight: bold;
+}
+
 .sections ul li {
   padding-bottom: 1rem;
 }
@@ -154,6 +158,13 @@ p {
   padding: 1rem;
   text-align: left;
   color: white;
+}
+
+#footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 #footer .social-links i {
@@ -316,7 +327,7 @@ td {
   display: block;
   height: 100%;
   width: 100%;
-  border: 0.25rem solid white;
+  border: 2px solid white;
   border-radius: 1rem;
 }
 

@@ -835,13 +835,13 @@
     padding: 0rem;
     width: 100%;
     margin: auto;
-    height: 850px;
+    height: 900px;
   }
 
   .sun-wrap .sun-img {
-    width: 340px;
+    width: 90%;
     min-width: 300px;
-    height: 180px;
+    height: 50vw;
     min-height: 180px;
     background-size: 100%;
   }
