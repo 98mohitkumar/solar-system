@@ -13,13 +13,18 @@
   <meta
     content="Planets, Sun, Venus, Earth, Earth's Moon, Moon, Satellite, Mars, Jupiter, Europa, Saturn, Enceladus, Titan, Uranus, Neptune, Dwarf Planet, Pluto, Our Solar System"
     name="keywords">
-  <meta property="og:image" content="https://github.com/98mohitkumar/solar-system/raw/host/Resources/Preview.jpg">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/98mohitkumar/solar-system/host/Resources/Preview.jpg">
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:alt" content="Our Solar System" />
   <meta property="og:site_name" content="Our Solar System">
   <script src="https://kit.fontawesome.com/3a7346116e.js" crossorigin="anonymous"></script>
+  <link rel="preload" href="css/style.css" as='style' />
+  <link rel="preload" href="css/responsive.css" as="style" />
+
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/responsive.css" />
+
   <link rel="shortcut icon" type="image/svg" href="Resources/icons/Solar_system_i.svg">
 </head>
 
@@ -49,22 +54,24 @@
 
   <!-- Sun Facts -->
   <div class="sun-wrap" id="top">
-    <div class="sun-img"></div>
+    <div class="overflow-image-wrapper">
+      <div class="sun-img"></div>
+    </div>
     <div class="sun-info">
       <div class="sun-facts">
         <h3>Sun Facts</h3>
         <ul>
           <li>
             The Sun is the largest object within our solar system, comprising
-            99.8% of the system’s mass.
+            99.8% of the system&apos;s mass.
           </li>
           <li>
             The Sun is located at the center of our solar system, and Earth
             orbits 93 million miles away from it.
           </li>
           <li>
-            Though massive, the Sun still isn’t as large as other types of
-            stars. It’s classified as a yellow dwarf star.
+            Though massive, the Sun still isn&apos;t as large as other types of
+            stars. It&apos;s classified as a yellow dwarf star.
           </li>
           <li>
             The Sun's magnetic field spreads throughout the solar system via the
@@ -73,7 +80,7 @@
         </ul>
       </div>
       <div class="explore-sun">
-        <h3><a href="Solar System/sun.html">Explore sun &#8594</a></h3>
+        <h3 class="page-anchor"><a href="SolarSystem/sun.html">Explore sun &#8594</a></h3>
       </div>
     </div>
   </div>
@@ -87,81 +94,99 @@
     <div class="wrap">
 
       <div class="mercury">
-        <div class="mercury-img overlay zoom">
+        <div class="mercury-shadow overflow-wrapper">
+          <div class="mercury-img overlay zoom">
+          </div>
         </div>
         <div class="explore-mercury">
-          <h3><a href="Solar System/mercury.html">Explore Mercury &#8594</a></h3>
+          <h3 class="page-anchor"><a href="SolarSystem/mercury.html">Explore Mercury &#8594</a></h3>
         </div>
       </div>
 
       <div class="venus">
-        <div class="venus-img overlay zoom"></div>
+        <div class="venus-shadow overflow-wrapper">
+          <div class="venus-img overlay zoom"></div>
+        </div>
         <div class="explore-venus">
-          <h3>
-            <a href="Solar System/venus.html">Explore Venus &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/venus.html">Explore Venus &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="earth">
-        <div class="earth-img overlay zoom"></div>
+        <div class="earth-shadow overflow-wrapper">
+          <div class="earth-img overlay zoom"></div>
+        </div>
         <div class="explore-earth">
-          <h3>
-            <a href="Solar System/earth.html">Explore Earth &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/earth.html">Explore Earth &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="mars">
-        <div class="mars-img overlay zoom"></div>
+        <div class="mars-shadow overflow-wrapper">
+          <div class="mars-img overlay zoom"></div>
+        </div>
         <div class="explore-mars">
-          <h3>
-            <a href="Solar System/mars.html">Explore Mars &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/mars.html">Explore Mars &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="jupiter">
-        <div class="jupiter-img overlay zoom"></div>
+        <div class="jupiter-shadow overflow-wrapper">
+          <div class="jupiter-img overlay zoom"></div>
+        </div>
         <div class="explore-jupiter">
-          <h3>
-            <a href="Solar System/jupiter.html">Explore Jupiter &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/jupiter.html">Explore Jupiter &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="saturn">
-        <div class="saturn-img overlay zoom"></div>
+        <div class="saturn-shadow overflow-wrapper">
+          <div class="saturn-img overlay zoom"></div>
+        </div>
         <div class="explore-saturn">
-          <h3>
-            <a href="Solar System/saturn.html">Explore Saturn &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/saturn.html">Explore Saturn &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="uranus">
-        <div class="uranus-img overlay zoom"></div>
+        <div class="uranus-shadow overflow-wrapper">
+          <div class="uranus-img overlay zoom"></div>
+        </div>
         <div class="explore-uranus">
-          <h3>
-            <a href="Solar System/uranus.html">Explore Uranus &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/uranus.html">Explore Uranus &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="neptune">
-        <div class="neptune-img overlay zoom"></div>
+        <div class="neptune-shadow overflow-wrapper">
+          <div class="neptune-img overlay zoom"></div>
+        </div>
         <div class="explore-neptune">
-          <h3>
-            <a href="Solar System/neptune.html">Explore Neptune &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/neptune.html">Explore Neptune &#8594</a>
           </h3>
         </div>
       </div>
 
       <div class="pluto">
-        <div class="pluto-img overlay zoom"></div>
+        <div class="pluto-shadow overflow-wrapper">
+          <div class="pluto-img overlay zoom"></div>
+        </div>
         <div class="explore-pluto">
-          <h3>
-            <a href="Solar System/pluto.html">Explore Pluto &#8594</a>
+          <h3 class="page-anchor">
+            <a href="SolarSystem/pluto.html">Explore Pluto &#8594</a>
           </h3>
         </div>
       </div>

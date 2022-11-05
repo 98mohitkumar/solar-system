@@ -7,16 +7,12 @@
     font-size: 4rem;
   }
 
-  .gridprops > div > video {
+  .gridprops>div>video {
     object-fit: contain !important;
   }
 
   .TD-model iframe {
     height: 300px;
-  }
-
-  .sun-wrap .sun-img:hover {
-    background-size: 115%;
   }
 
   .wrap .zoom:hover {
@@ -68,7 +64,7 @@
 
   .sun-wrap {
     flex-direction: column;
-    height: 850px;
+    padding: 4rem 2.5rem;
   }
 
   .scroll-wrap {
@@ -76,9 +72,8 @@
   }
 
   .sun-wrap .sun-info {
-    padding: 2rem;
-    padding-bottom: 8rem;
-    width: 95%;
+    padding: 1rem 2rem;
+    width: 100%;
   }
 
   #contents {
@@ -93,8 +88,8 @@
     padding: 2rem 3rem;
   }
 
-  .sun-wrap .sun-img {
-    margin: 4rem auto;
+  .sun-wrap .overflow-image-wrapper {
+    margin: auto;
     margin-bottom: 0rem;
     min-height: 350px;
   }
@@ -220,12 +215,12 @@
     transition: 0s ease-out;
   }
 
-  .gridprops > div {
+  .gridprops>div {
     filter: brightness(100%);
     transition: none;
   }
 
-  .gridprops > div:hover {
+  .gridprops>div:hover {
     transform: scale(1);
   }
 
@@ -427,7 +422,7 @@
     height: auto;
   }
 
-  .credits > div {
+  .credits>div {
     width: 100%;
     text-align: center;
     padding: 2rem 0rem;
@@ -832,24 +827,25 @@
   }
 
   .sun-wrap {
-    padding: 0rem;
+    padding: 3rem 1.25rem;
     width: 100%;
     margin: auto;
-    height: 900px;
+    justify-content: flex-start;
   }
 
-  .sun-wrap .sun-img {
-    width: 90%;
-    min-width: 300px;
-    height: 50vw;
-    min-height: 180px;
+  .sun-wrap .overflow-image-wrapper {
+    min-width: auto;
+    min-height: auto;
+    width: 100%;
+    height: unset;
+    aspect-ratio: 16/9;
     background-size: 100%;
   }
 
   .sun-wrap .sun-info {
-    padding: 1rem 0rem 0rem 1rem;
-    width: 85%;
-    margin-bottom: 4rem;
+    padding: 0px;
+    padding-left: 1rem;
+    width: 100%;
   }
 
   .sun-wrap .sun-info .sun-facts li {
@@ -863,6 +859,8 @@
   .sun-wrap .sun-info .explore-sun {
     font-size: 1.25rem;
     padding: 2rem 0rem 0rem 0rem;
+    margin-left: -1rem;
+    max-width: 100%;
   }
 
   .ExploreHeading {
@@ -897,7 +895,7 @@
     height: 100vw;
   }
 
-  fieldset > h3 {
+  fieldset>h3 {
     font-size: 1.65rem !important;
   }
 
@@ -977,10 +975,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 340px));
   }
 
-  .wrap .zoom {
-    height: 220px !important;
-  }
-
   .wrap h3 {
     font-size: 1.25rem;
     text-align: center;
@@ -1012,8 +1006,8 @@
   }
 
   .navbar-links_active {
-    opacity: 1 !important ;
-    height: 350px !important ;
+    opacity: 1 !important;
+    height: 350px !important;
   }
 
   #navbar ul li {
@@ -1170,7 +1164,7 @@
     padding-right: 0rem;
   }
 
-  .gridprops > div > video {
+  .gridprops>div>video {
     object-fit: contain !important;
   }
 
