@@ -284,8 +284,10 @@ td {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, rgb(0, 0, 0, 0), #000000e8 100%);
-  background: -webkit-linear-gradient(270deg, rgb(0, 0, 0, 0), #000000e8 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(270deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 100%);
   z-index: 0;
 }
 
@@ -470,7 +472,7 @@ td {
   min-width: 550px;
   height: 350px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 0px 80px 10px rgba(255, 51, 0, 0.6);
 }
@@ -833,13 +835,18 @@ td {
 
 .wrap .overflow-wrapper {
   height: 270px;
-  border-radius: 10px;
+  border-radius: 16px;
   overflow: hidden;
 }
 
 /* Zoom */
 .wrap .zoom:hover {
   transform: scale(1.2);
+}
+
+.responsiveHeight {
+  max-width: 1600px;
+  margin: auto;
 }
 
 /*  Explore SUN */
