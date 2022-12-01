@@ -926,15 +926,15 @@ td {
 
 .earth-sun_scale {
   background: url("../Resources/Earth-sun_scale.jpeg") no-repeat center center/contain;
-  width: 90%;
-  height: 34vw;
+  width: 100%;
+  aspect-ratio: 1.6;
   margin: auto;
 }
 
 .planets-sun_scale {
   background: url("../Resources/Planets-sun_scale.jpg") no-repeat center center/contain;
-  width: 90%;
-  height: 34vw;
+  width: 100%;
+  aspect-ratio: 1.8;
   margin: auto;
 }
 
@@ -948,8 +948,8 @@ td {
 
 .sun-structure {
   background: url("../Resources/Sun-structure.jpg") no-repeat center center/contain;
-  width: 90%;
-  height: 36vw;
+  width: 100%;
+  aspect-ratio: 1.5;
   margin: auto;
 }
 
@@ -1171,8 +1171,8 @@ fieldset.mercury-temperature {
 
 .EarthStructure {
   background: url("../Resources/Earth Structure.jpg") no-repeat center center/contain;
-  width: 90%;
-  height: 39vw;
+  width: 100%;
+  aspect-ratio: 1.5;
   margin: auto;
 }
 
@@ -1345,9 +1345,7 @@ fieldset.mercury-temperature {
 }
 
 .MarsLandscape {
-  background: url("https://live.staticflickr.com/683/31736548160_eb58c2396e_b_d.jpg") no-repeat center center/contain;
-  width: 90%;
-  height: 28vw;
+  background: url("https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb2hhIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--05eba952db06452785ed7b86dc3954a9dc0fdada/PIA22313-home.jpg?disposition=attachment") no-repeat center center/ cover;
   margin: auto;
 }
 
@@ -1467,7 +1465,7 @@ fieldset.mercury-temperature {
 .phobos-img h1 {
   position: absolute;
   font-family: "Gilroy", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
   font-size: 4rem;
   letter-spacing: 0.5rem;
@@ -1588,7 +1586,7 @@ fieldset.mercury-temperature {
 .deimos-img h1 {
   position: absolute;
   font-family: "Gilroy", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
   font-size: 4rem;
   letter-spacing: 0.5rem;
@@ -1979,6 +1977,11 @@ fieldset .jupiter-features {
 .responsiveAspect {
   width: 100%;
   aspect-ratio: 2;
+}
+
+fieldset legend h3 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
 }
 
 /* Gallery */
