@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
@@ -40,7 +40,7 @@ a {
 
 h3 {
   color: #fff;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
 }
 
@@ -57,14 +57,14 @@ li {
 .l-heading {
   color: #fff;
   font-size: 5rem;
-  font-family: "Gilroy-Bold", sans-serif;
-  font-weight: 400;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
 }
 
 .m-heading {
   color: #fff;
   font-size: 3rem;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 600;
 }
 
@@ -75,8 +75,8 @@ p {
 .showcase-h1_heading {
   color: #fff;
   font-size: 5rem;
-  font-family: "Gilroy-Bold", sans-serif;
-  font-weight: 400;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
   letter-spacing: 0.5rem;
 }
 
@@ -84,13 +84,13 @@ p {
   padding-bottom: 0.5rem;
   letter-spacing: 10px;
   color: #fff;
-  font-family: "Gilroy-Regular", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
 }
 
 .modal-heading {
   font-size: 2rem;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   color: #fff;
   padding-bottom: 0.5rem;
@@ -106,7 +106,7 @@ p {
 }
 
 .sections h3 {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .sections ul li {
@@ -197,7 +197,7 @@ table {
 
 th {
   padding: 0.8rem;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
 }
@@ -942,7 +942,7 @@ td {
   padding: 1rem;
   color: #fff;
   font-size: 1.5rem;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   border: 2px dotted white;
 }
 
@@ -1029,6 +1029,11 @@ td {
   margin: auto;
 }
 
+.quickFacts fieldset h3,
+.quick-facts h3 {
+  font-weight: 600;
+}
+
 fieldset.mercury-temperature {
   padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -1036,7 +1041,7 @@ fieldset.mercury-temperature {
 .mercury-temperature .hot_or_cold {
   padding: 0rem 0.5rem;
   font-size: 1.15rem;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   color: #fff;
 }
 
@@ -1461,7 +1466,7 @@ fieldset.mercury-temperature {
 
 .phobos-img h1 {
   position: absolute;
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 4rem;
@@ -1582,7 +1587,7 @@ fieldset.mercury-temperature {
 
 .deimos-img h1 {
   position: absolute;
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 4rem;
@@ -1676,7 +1681,7 @@ fieldset .jupiter-features {
   padding: 0rem 1rem;
   font-size: 1.25rem;
   font-weight: 700;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
 }
 
 .jupiter-exploration a {
@@ -1699,7 +1704,7 @@ fieldset .jupiter-features {
   color: white;
   font-size: 3rem;
   letter-spacing: 10px;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -1795,7 +1800,7 @@ fieldset .jupiter-features {
   margin-top: 1rem;
   font-size: 2rem;
   letter-spacing: 10px;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -1972,8 +1977,8 @@ fieldset .jupiter-features {
 }
 
 .responsiveAspect {
-  width: 95%;
-  height: 30vw;
+  width: 100%;
+  aspect-ratio: 2;
 }
 
 /* Gallery */
