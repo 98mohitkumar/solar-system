@@ -539,7 +539,7 @@
     padding: 0rem 0.5rem;
     font-size: 1.15rem;
     font-family: "Gilroy", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .moon-img {
@@ -889,14 +889,8 @@
     font-size: 1.65rem !important;
   }
 
-  .table_wrapper table {
-    width: 98% !important;
-  }
-
   th {
     padding: 0.5rem;
-    font-family: "Gilroy", sans-serif;
-    font-weight: 400;
     font-size: 1.2rem;
   }
 
@@ -998,12 +992,13 @@
   .navbar-links_active {
     opacity: 1 !important;
     height: 350px !important;
+    border-top: 1px solid rgba(75, 75, 75, 0.75);
   }
 
   #navbar ul li {
     font-size: 2rem;
     font-family: "Gilroy", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0rem;
   }
 
