@@ -101,11 +101,6 @@
     height: 28vw;
   }
 
-  .responsiveAspect {
-    width: 90%;
-    height: 24vw;
-  }
-
   .MercuryStructure {
     width: 90%;
     height: 32vw;
@@ -477,11 +472,6 @@
     height: 35vw;
   }
 
-  .responsiveAspect {
-    width: 90%;
-    height: 28vw;
-  }
-
   .MercuryStructure {
     width: 90%;
     height: 37vw;
@@ -548,7 +538,7 @@
   .quickFacts fieldset legend {
     padding: 0rem 0.5rem;
     font-size: 1.15rem;
-    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Gilroy", sans-serif;
     font-weight: 400;
   }
 
@@ -905,7 +895,7 @@
 
   th {
     padding: 0.5rem;
-    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
   }
@@ -1012,7 +1002,7 @@
 
   #navbar ul li {
     font-size: 2rem;
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     padding: 0rem;
   }
@@ -1072,11 +1062,6 @@
   .sun-structure {
     width: 340px;
     height: 212px;
-  }
-
-  .responsiveAspect {
-    width: 340px;
-    height: 168px;
   }
 
   .MercuryStructure {
