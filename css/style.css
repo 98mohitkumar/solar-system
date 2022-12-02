@@ -154,10 +154,11 @@ p {
   align-items: center;
 }
 
-#footer .footer-text {
+#footer .footer-text h3 {
   padding: 1rem;
   text-align: left;
   color: white;
+  font-weight: 500;
 }
 
 #footer .social-links {
