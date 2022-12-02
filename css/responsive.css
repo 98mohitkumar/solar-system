@@ -410,10 +410,6 @@
     text-align: center;
     padding: 2rem 0rem;
   }
-
-  .fixwrap {
-    min-height: calc(100vh - 61.6px);
-  }
 }
 
 @media (max-width: 975px) {
