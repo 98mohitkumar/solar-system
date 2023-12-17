@@ -154,10 +154,11 @@ p {
   align-items: center;
 }
 
-#footer .footer-text {
+#footer .footer-text h3 {
   padding: 1rem;
   text-align: left;
   color: white;
+  font-weight: 500;
 }
 
 #footer .social-links {
@@ -2703,7 +2704,7 @@ fieldset legend h3 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: calc(100vh - 61.6px);
+  min-height: calc(100vh - 64px);
 }
 
 .hamwrap {
